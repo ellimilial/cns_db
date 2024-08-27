@@ -1,0 +1,21 @@
+.idea
+data/ChEMBL/*.gz
+data/DrugBank/_drugbank_session.sqlite
+b3db_kc/caches/*
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/ellimilial/b3db_kc.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[submodule "data/B3DB"]
+	url = https://github.com/theochem/B3DB.git
+	active = true

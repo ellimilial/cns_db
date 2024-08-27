@@ -1,0 +1,109 @@
+compound_name	smiles	CID	logBB	BBB+/BBB-	comments
+1,1,1-Trichloroethane	CC(Cl)(Cl)Cl	6278	0.4		
+1,2,3,4-Tetrahydroquinoline	C1CC2=CC=CC=C2NC1	69460	0.7		
+1-Hydroxymidazolam	C1C2=CN=C(N2C3=C(C=C(C=C3)Cl)C(=N1)C4=CC=CC=C4F)CO	107917	-0.1		
+2-Chloro-1,1,1-Trifluoroethane	C(C(F)(F)F)Cl	6408	0.1		
+2-Methylpentane	CCCC(C)C	7892	1.0		
+2-Propanol	CC(C)O	3776	-0.2		
+2,2-Dimethylbutane	CCC(C)(C)C	6403	1.0		
+3-Methylhexane	CCCC(C)CC	11507	0.9		
+3-Methylpentane	CCC(C)CC	7282	1.0		
+4-Hydroxymidazolam	CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2O)C4=CC=CC=C4F	124449	-0.3		Actylsalicylic Acid?
+Aspirin	CC(=O)OC1=CC=CC=C1C(=O)O	2244	-0.5		chemical name corrected
+Albuterol	CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O	2083	-1.0		
+Alpha-Hydroxyalprazolam	C1C2=NN=C(N2C3=C(C=C(C=C3)Cl)C(=N1)C4=CC=CC=C4)CO	162244	-1.3		
+Alprazolam	CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4	2118	0.0		
+Aminopyrine	CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N(C)C	6009	0.0		
+Amitriptyline	CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31	2160	0.9		
+Antipyrine	CC1=CC(=O)N(N1C)C2=CC=CC=C2	2206	-0.1		
+Atenolol	CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O	2249	-1.4		
+Buspirone	C1CCC2(C1)CC(=O)N(C(=O)C2)CCCCN3CCN(CC3)C4=NC=CC=N4	2477	0.5		
+Butanone	CCC(=O)C	6569	-0.1		
+Caffeine	CN1C=NC2=C1C(=O)N(C(=O)N2C)C	2519	-0.1		
+Carbamazepine	C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N	2554	0.0		
+Carbamazepine-10,11-epoxide	C1=CC=C2C(=C1)C3C(O3)C4=CC=CC=C4N2C(=O)N	2555	-0.3		chemical name corrected
+Chlorambucil	C1=CC(=CC=C1CCCC(=O)O)N(CCCl)CCCl	2708	-1.7		
+Chloroform	C(Cl)(Cl)Cl	6212	0.3		
+Cimetidine	CC1=C(N=CN1)CSCCNC(=NC)NC#N	2756	-1.4		
+Clobazam	CN1C(=O)CC(=O)N(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	2789	0.4		
+Clonidine	C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl	2803	0.1		
+Codeine	CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O	5284371	0.6		
+Cyclohexane	C1CCCCC1	8078	0.9		
+Cyclopropane	C1CC1	6351	0.0		
+Didesipramine	C1CC2=CC=CC=C2N(C3=CC=CC=C31)CCCN	159642	1.1		chemical name corrected
+Desmethylclobazam	C1C(=O)NC2=C(C=C(C=C2)Cl)N(C1=O)C3=CC=CC=C3	89657	0.4		
+Desmethyldiazepam	C1C(=O)NC2=C(C=C(C=C2)Cl)C(=N1)C3=CC=CC=C3	2997	0.5		
+Desmonomethylpromazine	CNCCCN1C2=CC=CC=C2SC3=CC=CC=C31	28315	0.6		
+Diazepam	CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	3016	0.5		
+Dichloromethane	C(Cl)Cl	6344	-0.1		
+Didanosine	C1CC(OC1CO)N2C=NC3=C2N=CNC3=O	135398739	-1.3		
+Divinyl Ether	C=COC=C	8024	0.1		
+Domperidone	C1CN(CCC1N2C3=C(C=C(C=C3)Cl)NC2=O)CCCN4C5=CC=CC=C5NC4=O	3151	-0.8		
+Ethanol	CCO	702	-0.2		
+Ether	CCOCC	3283	0.0		
+Ethylbenzene	CCC1=CC=CC=C1	7500	0.2		
+Flumazenil	CCOC(=O)C1=C2CN(C(=O)C3=C(N2C=N1)C=CC(=C3)F)C	3373	-0.3		chemical name corrected
+Flunitrazepam	CN1C(=O)CN=C(C2=C1C=CC(=C2)[N+](=O)[O-])C3=CC=CC=C3F	3380	0.1		
+Fluphenazine	C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO	3372	1.5		
+Fluroxene	C=COCC(F)(F)F	9844	0.1		
+Gentisic Acid	C1=CC(=C(C=C1O)C(=O)O)O	3469	0.1		
+Halothane	C(C(F)(F)F)(Cl)Br	3562	0.4		
+Haloperidol	C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F	3559	1.3		
+Heptane	CCCCCCC	8900	0.8		
+Hexane	CCCCCC	8058	0.8		
+Hexobarbital	CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2	3608	0.1		
+Hydroxyzine	C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl	3658	0.4		
+Ibuprofen	CC(C)CC1=CC=C(C=C1)C(C)C(=O)O	3672	-0.2		
+Icotidine	CC1=NC=C(C=C1)CC2=CN=C(NC2=O)NCCCCC3=C(C=CC=N3)OC	72108	-2.0		
+Indomethacin	CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O	3715	-1.3		
+Levodopa	C1=CC(=C(C=C1CC(C(=O)O)N)O)O	6047	-0.8		
+Lupitidine	CC1=NC=C(C=C1)CC2=CN=C(NC2=O)NCCSCC3=CC=C(O3)CN(C)C	4375468	-1.1		
+m-Xylene	CC1=CC(=CC=C1)C	7929	0.3		
+Mepyramine	CN(C)CCN(CC1=CC=C(C=C1)OC)C2=CC=CC=N2	4992	0.5		
+Mesoridazine	CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)C	4078	-0.4		
+Methane	C	297	0.0		
+Methohexital	CCC#CC(C)C1(C(=O)NC(=O)N(C1=O)C)CC=C	9034	-0.1		
+Methotrexate	CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	126941	-1.5		
+Methoxyflurane	COC(C(Cl)Cl)(F)F	4116	0.3		
+Methylcyclopentane	CC1CCCC1	7296	0.9		
+Midazolam	CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F	4192	0.4		
+Mirtazapine	CN1CCN2C(C1)C3=CC=CC=C3CC4=C2N=CC=C4	4205	0.5		
+Morphine	CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O	5288826	-0.2		
+N-Desmethylclobazam	C1C(=O)NC2=C(C=C(C=C2)Cl)N(C1=O)C3=CC=CC=C3	89657	0.0		
+Nevirapine	CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4	4463	0.0		
+Norchlorpromazine	CNCCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl	62875	1.4		chemical name corrected
+Northioridazine	CSC1=CC2=C(C=C1)SC3=CC=CC=C3N2CCC4CCCCN4	558813	0.8		
+o-Xylene	CC1=CC=CC=C1C	7237	0.4		
+p-Xylene	CC1=CC=C(C=C1)C	7809	0.3		
+Paracetamol	CC(=O)NC1=CC=C(C=C1)O	1983	-0.3		
+Paraxanthine	CN1C=NC2=C1C(=O)N(C(=O)N2)C	4687	0.1		
+Pentane	CCCCC	8003	0.8		
+Pentobarbital	CCCC(C)C1(C(=O)NC(=O)NC1=O)CC	4737	0.1		
+Pergolide	CCCN1CC(CC2C1CC3=CNC4=CC=CC2=C34)CSC	47811	0.3		
+Phencyclidine	C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3	6468	0.7		
+Phenylbutazone	CCCCC1C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3	4781	-0.5		
+Phenytoin	C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3	1775	0.0		
+Physostigmine	CC12CCN(C1N(C3=C2C=C(C=C3)OC(=O)NC)C)C	5983	0.1		
+Pyrilamine	CN(C)CCN(CC1=CC=C(C=C1)OC)C2=CC=CC=N2	4992	0.5		
+Quinidine	COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O	441074	-0.5		
+(R)-Enflurane	C(C(OC(F)F)(F)F)(F)Cl	11052326	0.2		chemical name corrected
+Risperidone	CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F	5073	0.0		
+Salicylic Acid	C1=CC=C(C(=C1)C(=O)O)O	338	-1.1		
+Sodium Valproate	CCCC(CCC)C(=O)[O-].[Na+]	16760703	-0.2		
+Sulforidazine	CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)(=O)C	31765	0.2		
+Sulfur Hexafluoride	FS(F)(F)(F)(F)F	17358	0.4		
+Tacrine	C1CCC2=NC3=CC=CC=C3C(=C2C1)N	1935	-0.1		
+Temelastine	CC1=NC=C(C=C1)CC2=CN=C(NC2=O)NCCCCC3=NC=C(C=C3C)Br	55482	-1.9		
+Theobromine	CN1C=NC2=C1C(=O)NC(=O)N2C	5429	-0.3		
+Theophyline	CN1C2=C(C(=O)N(C1=O)C)NC=N2	2153	-0.3		
+Thiopental	CCCC(C)C1(C(=O)NC(=S)NC1=O)CC	3000715	-0.1		
+Thioperamide	C1CCC(CC1)NC(=S)N2CCC(CC2)C3=CN=CN3	3035905	-0.2		
+Thioridazine	CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC	5452	0.2		
+Tibolone	CC1CC2=C(CCC(=O)C2)C3C1C4CCC(C4(CC3)C)(C#C)O	444008	0.4		
+Tiotidine	CN=C(NCCSCC1=CSC(=N1)N=C(N)N)NC#N	50287	-0.8		
+Toluene	CC1=CC=CC=C1	1140	0.4		
+Trichloroethene	C(=C(Cl)Cl)Cl	6575	0.3		
+Trifluoroperazine	CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F	5566	1.4		
+Verapamil	CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC	2520	-0.7		
+Zidovudine	CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-]	35370	-0.7		
+Zolantidine	C1CCN(CC1)CC2=CC(=CC=C2)OCCCNC3=NC4=CC=CC=C4S3	91769	0.1		

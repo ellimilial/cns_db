@@ -1,0 +1,43 @@
+compound_name	smiles	CID	logBB	BBB+/BBB-	comments
+alprenolol			0.92		Sourced from Table 1, K(p,brain) column. 
+amitriptyline			1.3		
+atenolol			-1.2		
+baclofen			-1.5		
+bupropion			0.99		
+codeine			0.43		Cefotaxime removed - no value provided
+delavirdine			-1.5		
+diazepam			0.36		
+diphenhydramine			1.2		
+ethyl-phenylmalonamide			-0.19		
+gabapentin			-0.19		
+indomethacin			-2		
+lamotrigine			0.31		
+levofloxacin			-0.77		
+loperamide			-0.82		
+M3G			-2.2		
+M6G			-2.1		
+methotrexate			-2.4		
+metoprolol			0.5		
+morphine			-0.29		
+moxalactam			-2.5		
+nadolol			-0.96		
+nelfinavir			-1.4		
+nitrofurantoin			-2.1		
+norfloxacin			-1.2		
+oxprenolol			0.025		
+oxycodone			0.58		
+oxymorphone			0.36		
+paclitaxel			-0.55		
+pindolol			0.19		
+propranolol			0.82		
+rifampicin			-1.5		
+salicylic acid			-1.3		
+saquinavir			-1.1		
+sulphasalazine			-2.7		
+tacrine			0.98		
+thiopental			0.11		
+thioridazine			0.57		
+topiramate			-0.076		
+tramadol			0.72		
+verapamil			-0.47		
+zidovudine			-1.2		

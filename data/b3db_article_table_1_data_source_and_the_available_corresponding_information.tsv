@@ -1,0 +1,51 @@
+ID	Data Source Size	Information Available	Data Type	Reference
+R1	2053	"name, smiles"	categorical data	28
+R2	1210	"name, smiles"	"categorical data, numerical data"	32
+R3	328	"name, smiles"	numerical data	35
+R4	189	"CAS, name, smiles"	numerical data	36
+R5	108	"name, smiles"	numerical data	37
+R6	1692	"name, smiles"	categorical data	38
+R7	224	name	categorical data	29
+R8	439	"smiles, CID"	numerical data	25
+R9	415	"name, smiles"	categorical data	39
+R10	462	"name, CID"	categorical data	40
+R11	151	"name, logBB"	numerical data	41
+R12	182	"name, smiles"	numerical data	42
+R13	2321	smiles	categorical data	12
+R14	942	"name, smiles"	categorical data	43
+R15	390	name	categorical data	44
+R16	374	"name, CID"	categorical data	30
+R17	55	name	numerical data	45
+R18	332	"name, smiles"	numerical data	27
+R19	1990	"name, smiles"	categorical data	13
+R20	139	name	numerical data	46
+R21	362	"name, smiles, CID"	numerical data	47
+R22	27	name	numerical data	48
+R23	1090	"name, smiles"	categorical data	49
+R24	1866	smiles	categorical data	50
+R25	581	"name, smiles"	numerical data	26
+R26	448	"CAS, name, smiles"	"categorical data, numerical data"	51
+R27	7236	smiles	"categorical data, numerical data"	11
+R28	415	"name, smiles"	categorical data	31
+R29	181	name	categorical data	52
+R30	3620	"name, smiles"	categorical data	53 *
+R31	12	name	numerical data	54
+R32	26	name	numerical data	55
+R33	26	name	numerical data	56
+R34	153	name	numerical data	57
+R35	145	smiles	numerical data	58
+R36	525	"name, smiles"	categorical data	59
+R37	111	"name, smiles"	categorical data	60
+R38	291	"name, smiles"	numerical data	61
+R39	122	name	numerical data	62
+R40	405	name	numerical data	63
+R41	296	smiles	numerical data	64
+R42	45	smiles	numerical data	9
+R43	328	"name, smiles"	numerical data	65
+R44	89	name	numerical data	66
+R45	8	smiles	numerical data	67
+R46	483	smiles	numerical data	68
+R47	529	name	numerical data	69
+R48	115	smiles	numerical data	70
+R49	181	"name, smiles"	numerical data	71
+R50	113	"name, smiles"	"categorical data, numerical data"	72

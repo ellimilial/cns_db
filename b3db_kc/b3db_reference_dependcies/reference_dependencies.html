@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paper Relations Visualization</title>
+  <script src="https://unpkg.com/cytoscape@3.19.1/dist/cytoscape.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/elkjs@0.8.2/lib/elk.bundled.min.js"></script>
+  <script src="
+https://cdn.jsdelivr.net/npm/@shensquared/cytoscape-elk@2.0.3/dist/cytoscape-elk.min.js
+"></script>
+  <style>
+    body {font-family: "sans-serif";}
+
+    #cy {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div style="margin-left: 100px; margin-top: 100px;">
+    <strong>Publications with BBB data</strong><br><br>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <div style="background-color: lightblue; width: 20px; height: 20px; display: inline-block;"></div>
+                <span>Maintained</span>
+            <br>
+            <div style="background-color: lightcoral; width: 20px; height: 20px; display: inline-block;"></div>
+                <span>Discarded</span>
+            <br>
+            <div style="background-color: lightgreen; width: 20px; height: 20px; display: inline-block;"></div>
+                <span>Added</span>
+            <br>
+            <div style="background-color: lightgrey; width: 20px; height: 20px; display: inline-block;"></div>
+                <span>External references</span>
+            <br>
+          </td>
+          <td style="padding-left: 30px;">
+            <div style="border-style: dashed;  border-width: 5px; border-color: grey; width: 10px; height: 10px; display: inline-block;"></div>
+                <span>Not all references included</span>
+            <br>
+            <div style="border-style: dashed;  border-width: 5px; border-color: blue; width: 10px; height: 10px; display: inline-block;"></div>
+                <span>Covered by subsequent publications</span>
+            <br>
+            <div style="border-style: dashed;  border-width: 5px; border-color: orange; width: 10px; height: 10px; display: inline-block;"></div>
+                <span>Could not verify provenance</span>
+            <br>
+            <div style="width: 20px; height: 15px; display: inline-block;">
+              <hr style="border-top: dotted 2px;">
+            </div>
+                <span>Non-direct usage</span>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="cy"></div>
+
+  <script>
+    var cy = cytoscape({
+      container: document.getElementById('cy'),
+
+      elements: [
+      // START ELEMENTS
+      {data: {id: 'Martins 2012 (R1)', 'to_be_removed' : true}},
+      {data: {id: 'Zhang 2008 (R36)', 'to_be_removed' : true}},
+      {data: {id: 'Zhao 2007 (R19)', 'to_be_removed' : true}},
+      {data: {id: 'Li 2005 (R28)'}},
+      {data: {id: 'Doninger 2002 (R51)', 'to_be_added' : true, 'not_all_references_listed' : true}},
+      {data: {id: 'Singh 2020 (R2)', 'to_be_removed' : true}},
+      {data: {id: 'Wang 2015 (R8)', 'to_be_removed' : true}},
+      {data: {id: 'Brito-Sanchez 2015 (R25)', 'not_all_references_listed' : true}},
+      {data: {id: 'Abraham 2006 (R3)', 'not_all_references_listed' : true}},
+      {data: {id: 'Abraham 1995', 'covered_by_later_datasets' : true, 'external_references' : true}},
+      {data: {id: 'Mente 2005 (R4)', 'not_all_references_listed' : true}},
+      {data: {id: 'Guerra 2008 (R5)', 'not_all_references_listed' : true}},
+      {data: {id: 'Adenot 2004 (R6)'}},
+      {data: {id: 'Andres 2006 (R7)'}},
+      {data: {id: 'Muehlbacher 2011 (R21)'}},
+      {data: {id: 'Vilar 2010 (R40)'}},
+      {data: {id: 'Hou 2003 (R48)'}},
+      {data: {id: 'Mahumdar 2019 (R9)', 'to_be_removed' : true}},
+      {data: {id: 'Miau 2019 (R10)', 'to_be_removed' : true}},
+      {data: {id: 'Gao 2017 (R16)'}},
+      {data: {id: 'Shen 2008 (R11)', 'to_be_removed' : true}},
+      {data: {id: 'Young 1988', 'external_references' : true}},
+      {data: {id: 'Narayanan 2005', 'external_references' : true}},
+      {data: {id: 'Katritzky 2006', 'external_references' : true}},
+      {data: {id: 'Subramanian 2003 (R29)'}},
+      {data: {id: 'Garg 2006 (R12)'}},
+      {data: {id: 'Platts 2001', 'external_references' : true}},
+      {data: {id: 'Rose 2002', 'external_references' : true}},
+      {data: {id: 'ChemSilico Datasets', 'external_references' : true}},
+      {data: {id: 'Wang 2018 (R13)', 'to_be_removed' : true}},
+      {data: {id: 'Shen 2010', 'external_references' : true}},
+      {data: {id: 'Ghose 2012 (R14)'}},
+      {data: {id: 'Kortagere 2008 (R15)', 'to_be_removed' : true}},
+      {data: {id: 'Konovalov 2007 (R38)', 'to_be_removed' : true}},
+      {data: {id: 'Liu 2001 (R52)', 'to_be_added' : true}},
+      {data: {id: 'Winkler 2004', 'external_references' : true}},
+      {data: {id: 'Fu 2008 (R17)', 'not_all_references_listed' : true}},
+      {data: {id: 'Plisson 2019 (R18)', 'to_be_removed' : true}},
+      {data: {id: 'Chico 2009 (R26)'}},
+      {data: {id: 'Lanevskij 2011 (R20)', 'to_be_removed' : true}},
+      {data: {id: 'Van Damme 2008', 'external_references' : true}},
+      {data: {id: 'Chen 2009 (R35)', 'to_be_removed' : true}},
+      {data: {id: 'Fan 2010', 'external_references' : true}},
+      {data: {id: 'Kelder 1999', 'external_references' : true}},
+      {data: {id: 'Zerara 2009', 'external_references' : true}},
+      {data: {id: 'Clark 1999 (R22)'}},
+      {data: {id: 'Gupta 2019 (R23)'}},
+      {data: {id: 'Wager 2010', 'external_references' : true}},
+      {data: {id: 'Rankovic 2017 (retracted)', 'external_references' : true}},
+      {data: {id: 'Roy 2019 (R24)', 'to_be_removed' : true}},
+      {data: {id: 'Shaker 2020 (R27)', 'to_be_removed' : true}},
+      {data: {id: 'Wu 2018', 'external_references' : true}},
+      {data: {id: 'Yuan 2018', 'external_references' : true}},
+      {data: {id: 'Luco 1999', 'external_references' : true}},
+      {data: {id: 'Ooms 2002', 'external_references' : true}},
+      {data: {id: 'Harvard dataverse - Therapeutic Data Commons (R30)', 'to_be_removed' : true}},
+      {data: {id: 'Carpenter 2014 (R31)'}},
+      {data: {id: 'Lombardo 1996 (R32)', 'to_be_removed' : true}},
+      {data: {id: 'Abraham 1994', 'external_references' : true}},
+      {data: {id: 'Lin 1994', 'external_references' : true}},
+      {data: {id: 'Van Belle 1995', 'external_references' : true}},
+      {data: {id: 'Ohshima 1995', 'external_references' : true}},
+      {data: {id: 'Shah 1989', 'external_references' : true}},
+      {data: {id: 'Norinder 1998 (R33)', 'to_be_removed' : true, 'covered_by_later_datasets' : true}},
+      {data: {id: 'Broccatelli 2012 (R34)', 'not_all_references_listed' : true}},
+      {data: {id: 'Norinder 2002 (R49)'}},
+      {data: {id: 'Hemmateenejad 2006 (R45)'}},
+      {data: {id: 'Chen 2011 (R37)'}},
+      {data: {id: 'Friden 2009 (R53)', 'to_be_added' : true}},
+      {data: {id: 'Shayanfar 2011 (R39)'}},
+      {data: {id: 'Abraham 1997', 'external_references' : true}},
+      {data: {id: 'Escuder-Gilabert 2004', 'external_references' : true}},
+      {data: {id: 'Usansky 2003', 'external_references' : true}},
+      {data: {id: 'Toropov 2017 (R41)', 'uncertain_provenance' : true}},
+      {data: {id: 'Hou 2002', 'external_references' : true}},
+      {data: {id: 'Ciura 2020 (R42)', 'not_all_references_listed' : true}},
+      {data: {id: 'Dichiara 2019 (R43)', 'to_be_removed' : true}},
+      {data: {id: 'Bujak 2015 (R44)'}},
+      {data: {id: 'Kaliszan 1996', 'external_references' : true}},
+      {data: {id: 'Molero-Monfort 2002', 'external_references' : true}},
+      {data: {id: 'Mendoza Valencia 2017 (R46)', 'to_be_removed' : true}},
+      {data: {id: 'Radchenko 2020 (R47)'}},
+      {data: {id: 'Yazdanian 1998', 'external_references' : true}},
+      {data: {id: 'Calder 1994', 'external_references' : true}},
+      {data: {id: 'Abraham 1993', 'external_references' : true}},
+      {data: {id: 'Molnar 2001', 'external_references' : true}},
+      {data: {id: 'Sobanska 2019 (R50)'}},
+      {data: {id: 'ACD/LabsTM 2004', 'external_references' : true}},
+      {data: { source: 'Martins 2012 (R1)', target: 'Zhang 2008 (R36)' }},
+      {data: { source: 'Martins 2012 (R1)', target: 'Zhao 2007 (R19)' }},
+      {data: { source: 'Martins 2012 (R1)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Martins 2012 (R1)', target: 'Doninger 2002 (R51)' }},
+      {data: { source: 'Zhang 2008 (R36)', target: 'Hemmateenejad 2006 (R45)' }},
+      {data: { source: 'Zhang 2008 (R36)', target: 'Norinder 2002 (R49)' }},
+      {data: { source: 'Zhang 2008 (R36)', target: 'Platts 2001' }},
+      {data: { source: 'Zhao 2007 (R19)', target: 'Adenot 2004 (R6)' }},
+      {data: { source: 'Zhao 2007 (R19)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Li 2005 (R28)', target: 'Platts 2001' }},
+      {data: { source: 'Li 2005 (R28)', target: 'Luco 1999' }},
+      {data: { source: 'Li 2005 (R28)', target: 'Ooms 2002' }},
+      {data: { source: 'Singh 2020 (R2)', target: 'Wang 2015 (R8)' }},
+      {data: { source: 'Singh 2020 (R2)', target: 'Brito-Sanchez 2015 (R25)' }},
+      {data: { source: 'Wang 2015 (R8)', target: 'Muehlbacher 2011 (R21)' }},
+      {data: { source: 'Wang 2015 (R8)', target: 'Vilar 2010 (R40)' }},
+      {data: { source: 'Wang 2015 (R8)', target: 'Hou 2003 (R48)' }},
+      {data: { source: 'Wang 2015 (R8)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Brito-Sanchez 2015 (R25)', target: 'Lanevskij 2011 (R20)' }},
+      {data: { source: 'Brito-Sanchez 2015 (R25)', target: 'Konovalov 2007 (R38)' }},
+      {data: { source: 'Brito-Sanchez 2015 (R25)', target: 'Shen 2008 (R11)' }},
+      {data: { source: 'Abraham 2006 (R3)', target: 'Abraham 1995', 'implied': true }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Vilar 2010 (R40)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Mente 2005 (R4)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Zhang 2008 (R36)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Garg 2006 (R12)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Guerra 2008 (R5)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Konovalov 2007 (R38)' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Platts 2001' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Narayanan 2005' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Rose 2002' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Kelder 1999' }},
+      {data: { source: 'Muehlbacher 2011 (R21)', target: 'Zerara 2009' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Konovalov 2007 (R38)' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Luco 1999' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Abraham 1997' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Garg 2006 (R12)' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Mente 2005 (R4)' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Ooms 2002' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Escuder-Gilabert 2004' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Rose 2002' }},
+      {data: { source: 'Vilar 2010 (R40)', target: 'Usansky 2003' }},
+      {data: { source: 'Hou 2003 (R48)', target: 'Hou 2002' }},
+      {data: { source: 'Hou 2003 (R48)', target: 'Yazdanian 1998' }},
+      {data: { source: 'Hou 2003 (R48)', target: 'Lin 1994' }},
+      {data: { source: 'Hou 2003 (R48)', target: 'Van Belle 1995' }},
+      {data: { source: 'Hou 2003 (R48)', target: 'Calder 1994' }},
+      {data: { source: 'Mahumdar 2019 (R9)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Miau 2019 (R10)', target: 'Gao 2017 (R16)' }},
+      {data: { source: 'Gao 2017 (R16)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Gao 2017 (R16)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Gao 2017 (R16)', target: 'Subramanian 2003 (R29)' }},
+      {data: { source: 'Gao 2017 (R16)', target: 'Wang 2015 (R8)' }},
+      {data: { source: 'Gao 2017 (R16)', target: 'Winkler 2004' }},
+      {data: { source: 'Shen 2008 (R11)', target: 'Young 1988' }},
+      {data: { source: 'Shen 2008 (R11)', target: 'Hou 2003 (R48)' }},
+      {data: { source: 'Shen 2008 (R11)', target: 'Narayanan 2005' }},
+      {data: { source: 'Shen 2008 (R11)', target: 'Katritzky 2006' }},
+      {data: { source: 'Shen 2008 (R11)', target: 'Subramanian 2003 (R29)' }},
+      {data: { source: 'Garg 2006 (R12)', target: 'Platts 2001' }},
+      {data: { source: 'Garg 2006 (R12)', target: 'Rose 2002' }},
+      {data: { source: 'Garg 2006 (R12)', target: 'ChemSilico Datasets' }},
+      {data: { source: 'Wang 2018 (R13)', target: 'Martins 2012 (R1)' }},
+      {data: { source: 'Wang 2018 (R13)', target: 'Muehlbacher 2011 (R21)' }},
+      {data: { source: 'Wang 2018 (R13)', target: 'Wang 2015 (R8)' }},
+      {data: { source: 'Wang 2018 (R13)', target: 'Shen 2010' }},
+      {data: { source: 'Shen 2010', target: 'Adenot 2004 (R6)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Garg 2006 (R12)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Hou 2003 (R48)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Konovalov 2007 (R38)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Subramanian 2003 (R29)' }},
+      {data: { source: 'Kortagere 2008 (R15)', target: 'Liu 2001 (R52)' }},
+      {data: { source: 'Konovalov 2007 (R38)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Liu 2001 (R52)', target: 'Abraham 1995' }},
+      {data: { source: 'Winkler 2004', target: 'Rose 2002' }},
+      {data: { source: 'Plisson 2019 (R18)', target: 'Chico 2009 (R26)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Van Damme 2008' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Fu 2008 (R17)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Zhang 2008 (R36)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Kortagere 2008 (R15)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Chen 2009 (R35)' }},
+      {data: { source: 'Lanevskij 2011 (R20)', target: 'Fan 2010' }},
+      {data: { source: 'Chen 2009 (R35)', target: 'Garg 2006 (R12)' }},
+      {data: { source: 'Chen 2009 (R35)', target: 'Norinder 2002 (R49)' }},
+      {data: { source: 'Gupta 2019 (R23)', target: 'Wager 2010' }},
+      {data: { source: 'Gupta 2019 (R23)', target: 'Rankovic 2017 (retracted)' }},
+      {data: { source: 'Roy 2019 (R24)', target: 'Adenot 2004 (R6)' }},
+      {data: { source: 'Roy 2019 (R24)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Roy 2019 (R24)', target: 'Doninger 2002 (R51)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Adenot 2004 (R6)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Gao 2017 (R16)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Martins 2012 (R1)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Plisson 2019 (R18)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Singh 2020 (R2)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Wang 2018 (R13)' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Wu 2018' }},
+      {data: { source: 'Shaker 2020 (R27)', target: 'Yuan 2018' }},
+      {data: { source: 'Wu 2018', target: 'Martins 2012 (R1)' }},
+      {data: { source: 'Yuan 2018', target: 'Zhao 2007 (R19)' }},
+      {data: { source: 'Harvard dataverse - Therapeutic Data Commons (R30)', target: 'Martins 2012 (R1)' }},
+      {data: { source: 'Lombardo 1996 (R32)', target: 'Abraham 1994' }},
+      {data: { source: 'Lombardo 1996 (R32)', target: 'Lin 1994' }},
+      {data: { source: 'Lombardo 1996 (R32)', target: 'Van Belle 1995' }},
+      {data: { source: 'Lombardo 1996 (R32)', target: 'Ohshima 1995' }},
+      {data: { source: 'Lombardo 1996 (R32)', target: 'Shah 1989' }},
+      {data: { source: 'Norinder 1998 (R33)', target: 'Lombardo 1996 (R32)' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Young 1988' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Calder 1994' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Abraham 1993' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Lombardo 1996 (R32)' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Molnar 2001' }},
+      {data: { source: 'Norinder 2002 (R49)', target: 'Norinder 1998 (R33)', 'implied': true }},
+      {data: { source: 'Hemmateenejad 2006 (R45)', target: 'Hou 2003 (R48)' }},
+      {data: { source: 'Hemmateenejad 2006 (R45)', target: 'Norinder 2002 (R49)' }},
+      {data: { source: 'Chen 2011 (R37)', target: 'Friden 2009 (R53)' }},
+      {data: { source: 'Chen 2011 (R37)', target: 'Wager 2010' }},
+      {data: { source: 'Shayanfar 2011 (R39)', target: 'Platts 2001' }},
+      {data: { source: 'Shayanfar 2011 (R39)', target: 'Chen 2009 (R35)' }},
+      {data: { source: 'Shayanfar 2011 (R39)', target: 'Katritzky 2006' }},
+      {data: { source: 'Shayanfar 2011 (R39)', target: 'Guerra 2008 (R5)' }},
+      {data: { source: 'Toropov 2017 (R41)', target: 'Hou 2002' }},
+      {data: { source: 'Dichiara 2019 (R43)', target: 'Li 2005 (R28)' }},
+      {data: { source: 'Dichiara 2019 (R43)', target: 'Muehlbacher 2011 (R21)' }},
+      {data: { source: 'Dichiara 2019 (R43)', target: 'Abraham 2006 (R3)' }},
+      {data: { source: 'Dichiara 2019 (R43)', target: 'Liu 2001 (R52)' }},
+      {data: { source: 'Bujak 2015 (R44)', target: 'Kaliszan 1996' }},
+      {data: { source: 'Bujak 2015 (R44)', target: 'Molero-Monfort 2002' }},
+      {data: { source: 'Sobanska 2019 (R50)', target: 'Vilar 2010 (R40)' }},
+      {data: { source: 'Sobanska 2019 (R50)', target: 'ACD/LabsTM 2004' }}
+      // END ELEMENTS
+      ],
+
+      style: [
+        {
+          selector: 'node',
+          style: {
+            'font-family': 'sans-serif',
+            'background-color': 'lightblue',
+            'label': 'data(id)'
+          }
+        },
+        {
+          selector: 'edge',
+          style: {
+            'width': 2,
+            'line-color': 'lightgray',
+            'curve-style': 'bezier',
+            'target-arrow-color': 'lightgray',
+            'target-arrow-shape': 'triangle'
+          }
+        },
+        {
+          selector: 'node[id = "Doninger 2002 | C1"]',
+          style: {
+            'background-color': 'green'
+          }
+        },
+        {
+          selector: "node[to_be_added]",
+          style: {
+            'background-color': 'lightgreen'
+          }
+        },
+        {
+          selector: "node[to_be_removed]",
+          style: {
+            'background-color': 'lightcoral'
+          }
+        },
+        {
+          selector: "node[external_references]",
+          style: {
+            'background-color': 'lightgray'
+          }
+        },
+        {
+          selector: "node[covered_by_later_datasets]",
+          style: {
+            'border-style': "dashed",
+            'border-width': 5,
+            'border-color': 'blue'
+          }
+        },
+        {
+          selector: "node[not_all_references_listed]",
+          style: {
+            'border-style': "dashed",
+            'border-width': 5,
+            'border-color': 'grey'
+          }
+        },
+        {
+          selector: "node[uncertain_provenance]",
+          style: {
+            //'background-color': 'black'
+            'border-style': "dashed",
+            'border-width': 5,
+            'border-color': "orange"
+          }
+        },
+
+
+        {
+          selector: 'edge[implied]',
+          style: {
+            'line-style': 'dotted'
+          }
+        }
+      ],
+
+      layout: {
+        name: 'elk',
+        elk: {
+          algorithm: 'layered', //layered mrtree
+          componentLayoutAlgorithm: 'stress',
+        },
+      }
+    });
+  </script>
+</body>
+</html>

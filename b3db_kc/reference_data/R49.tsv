@@ -1,0 +1,182 @@
+compound_name	smiles	CID	logBB	BBB+/BBB-	comments
+Cimetidine	C(SCc1c(n(cn1)[H])C)CN/C(=N/C#N)/NC	2756.0	-1.42		
+nan	Cc1csc(n1)/N=C(/N)\N	2776666.0	-0.04		
+Icotidine	c1cc(c(nc1)CCCCN\C\1=N\C(=O)/C(=C\N1)/Cc1ccc(nc1)C)OC	72108.0	-2.0		
+24	c1ccc2c(c1)ccc(c2)C\C\1=C\N/C(=N\C1=O)/NCCSCc1ccc(o1)CN(C)C	14022522.0	-1.3		
+Lupitidine	Cc1ccc(cn1)C\C\1=C\N/C(=N\C1=O)/NCCSCc1ccc(o1)CN(C)C	4375468.0	-1.06		
+Clonidine	c1ccc(c(c1Cl)N/C/1=N/CCN1)Cl	2803.0	0.11		
+Pyrilamine	c1ccc(nc1)N(CCN(C)C)Cc1ccc(cc1)OC	4992.0	0.49		
+Imipramine	C1c2ccccc2N(CCCN(C)C)c2c(cccc2)C1	3696.0	0.83		
+Ranitidine	CN\C(=C/[N+](=O)[O–])\NCCSCc1ccc(o1)CN(C)C		-1.23		
+Tiotidine	C(SCc1csc(n1)/N=C(/N)\N)CN/C(=N/C#N)/NC	50287.0	-0.82		
+28	CN(c1nccc(c1)c1nn(c(n1)N)[H])C	12889418.0	-1.17		
+30	CCN/C(=N/C#N)/NCCSCc1c(cccn1)Br	14022517.0	-2.15		
+7	c1cc(c(nc1)CSCCNc1c(ccn1[H])[N+](=O)[O–])Br		-0.67		
+8	c1ccnc(c1)CSCCNc1c(ccn1[H])[N+](=O)[O–]		-0.66		
+9	c1ccc(cc1)Cc1cn(c(c1[N+](=O)[O–])NCCSCc1ccccn1)[H]		-0.12		
+10	c1ccc(cc1)c1csc(n1)/N=C(/N)\N	3763607.0	-0.18		
+11	c1ccc(cc1N)c1csc(n1)/N=C(/N)\N	14022509.0	-1.15		
+12	c1ccc(cc1NC(=O)C)c1csc(n1)/N=C(/N)\N	14022511.0	-1.57		
+13	CN\C(=N/C#N)\Nc1cccc(c1)c1csc(n1)/N=C(/N)\N	14022519.0	-1.54		
+26	CN(Cc1ccc(o1)CSCCNc1c(ccn1[H])[N+](=O)[O–])C		-1.12		
+27	c1ccc(cc1)Cc1cn(c(c1[N+](=O)[O–]) NCCSCc1ccc(o1)CN(C)C)[H]		-0.73		
+14	CN(Cc1ccc(o1)c1cccc(c1)Nc1c(ccn1[H])[N+](=O)[O–])C		-0.27		
+15	CN(Cc1ccnc(c1)c1cccc(c1)Nc1c(ccn1[H])[N+](=O)[O–])C		-0.28		
+16	C1CCN(CC1)Cc1cccc(c1)OCCCNC(=O)C	9971484.0	-0.46		
+17	c1ccc(cc1)C(=O)NCCCOc1cccc(c1)CN1CCCCC1	10498206.0	-0.24		
+18	C1CCN(CC1)Cc1cccc(c1)OCCCO	10444765.0	-0.02		
+19	C1CCN(CC1)Cc1cccc(c1)OCCCNc1ccccn1	10019237.0	0.69		
+20	C1CCN(Cc2cc(ccc2)OCCCNc2nccs2)CC1	14022497.0	0.44		
+Zolantidine	C1CCN(Cc2cc(ccc2)OCCCNc2nc3ccccc3s2)CC1	91769.0	0.14		
+22	C1CCN(Cc2cc(ccc2)OCCCNc2nc3ccccc3o2)CC1	14022499.0	0.22		
+nan	NC(=O)N1c2c(cccc2)\C=C/c2ccccc12	2554.0	0.0		
+nan	O1C2c3ccccc3N(c3c(cccc3)C12)C(=O)N	2555.0	-0.34		
+nan	CN1C(=O)c2c(cccc2Cl)n2cnc(c2C1)c1noc(n1)C(C)C	129710.0	-0.3		
+nan	OC(c1nc(no1)c1c2CN(C(=O)c3c(cccc3Cl)n2cn1)C)(C)C	10384745.0	-1.34		
+nan	OCC(c1nc(no1)c1c2CN(C(=O)c3c(cccc3Cl)n2cn1)C)(C)O	10091748.0	-1.82		
+nan	CN(CC\C=C\1/c2ccccc2CCc2ccccc12)C	2160.0	0.89		
+Temelastine	Brc1cnc(c(c1)C)CCCCN\C\1=N\C(=O)/C(=C\N1)/Cc1cnc(cc1)C	55482.0	-1.88		
+Chlorambucil	C(=O)(O)CCCc1ccc(cc1)N(CCCl)CCCl	2708.0	-1.7		
+Benzene	c1ccccc1	241.0	0.37		
+Butanone	CCC(=O)C	6569.0	-0.08		
+Diethyl ether	CCOCC	3283.0	0.0		
+2,2-Dimethylbutane	CCC(C)(C)C	6403.0	1.04		
+R-Enflurane	FC(C(F)(F)OC(F)F)Cl	3226.0	0.24		
+Ethanol	CCO	702.0	-0.16		
+Fluroxene	O(C=C)CC(F)(F)F	9844.0	0.13		
+Heptane	CCCCCCC	8900.0	0.81		
+Hexane	CCCCCC	8058.0	0.8		
+R-Isoflurane	FC(OC(C(F)(F)F)Cl)F	3763.0	0.42		
+nan	C	297.0	0.04		
+Methylcyclopentane	C1CC(CC1)C	7296.0	0.93		
+3-Methylhexane	CCCC(C)CC	11507.0	0.9		
+2-Methylpentane	C(C)(CCC)C	7892.0	0.97		
+3-Methylpentane	CCC(C)CC	7282.0	1.01		
+2-Methylpropanol	CC(CO)C	6560.0	-0.17		
+Pentane	CCCCC	8003.0	0.76		
+Propanol	CCCO	1031.0	-0.16		
+2-Propanol	CC(O)C	3776.0	-0.15		
+Propanone	CC(=O)C	180.0	-0.15		
+R-Teflurane	BrC(C(F)(F)F)F	31300.0	0.27		
+Toluene	c1ccc(cc1)C	1140.0	0.37		
+nan	CC(Cl)(Cl)Cl	6278.0	0.4		
+Trichloroethene	Cl/C=C(/Cl)\Cl	6575.0	0.34		
+nan	ClCC(F)(F)F	6408.0	0.08		
+nan	N#N	947.0	0.03		
+R-Halothane	BrC(C(F)(F)F)Cl	3562.0	0.35		
+Salicylic acid	c1(ccccc1O)C(=O)O	338.0	-1.1		
+Acetylsalicylic acid	c1(ccccc1OC(=O)C)C(=O)O	2244.0	-0.5		
+Acetaminophen	C(=O)(Nc1ccc(cc1)O)C	1983.0	-0.31		
+Valproic acid	C(=O)(C(CCC)CCC)O	3121.0	-0.22		
+nan	[Ne]	23935.0	0.2		
+nan	[Ar]	23968.0	0.03		
+nan	[Xe]	23991.0	0.03		
+nan	[N+](#N)[O–]		0.03		
+nan	C(Cl)(Cl)Cl	6212.0	0.29		
+nan	C(C(Cl)Cl)(OC)(F)F	4116.0	0.25		
+nan	S(F)(F)(F)(F)(F)F	17358.0	0.36		
+nan	C(=S)=S	6348.0	0.6		
+nan	CNCCc1ccccn1	2366.0	-0.3		
+nan	CN(CCc1ccccn1)C	80554.0	-0.06		
+nan	NCCc1nccs1	87653.0	-0.42		
+nan	c1ccccc1c1csc(n1)CCN	1497794.0	-1.3		
+nan	c1cccn2c1nc(c2)CCN	7536516.0	-1.4		
+nan	CCCN(CCc1c2c(c(cc1)O)NC(=O)C2)CCC	133741.0	-0.43		
+nan	CCCN(CCc1c2c(ccc1)NC(=O)C2)CCC	5095.0	0.25		
+Pentobarbital	CCCC(C1(CC)C(=O)NC(=O)NC1=O)C	4737.0	0.12		
+Antipyrine	c1ccc(cc1)N1C(=O)\C=C(/N1C)\C	2206.0	-0.097		
+Desipramine	C1c2ccccc2N(CCCNC)c2c(cccc2)C1	2995.0	1.2		
+Theophylline	CN1C(=O)N(C)c2c(C1=O)n([H])cn2	2153.0	-0.29		
+Caffeine	O=C1N(c2c(n(cn2)C)C(=O)N1C)C	2519.0	-0.055		
+Codeine	COc1ccc2c3c1OC1C34CCN(C(C4\C=C/C1O)C2)C	2828.0	0.55		
+Alprazolam	c1ccc(cc1)\C\1=N\Cc2nnc(n2c2ccc(cc12)Cl)C	2118.0	0.044		
+Indomethacin	Clc1ccc(cc1)C(=O)n1c2c(cc(cc2)OC)c(c1C)CC(=O)O	3715.0	-1.26		
+Oxazepam	c1ccc(cc1)/C/1=N/C(C(=O)Nc2c1cc(Cl)cc2)O	4616.0	0.61		
+Hydroxyzine	OCCOCCN1CCN(C(c2ccccc2)c2ccc(cc2)Cl)CC1	3658.0	0.39		
+Midazolam	c1ccc(c(c1)F)\C\1=N\Cc2cnc(n2c2ccc(cc12)Cl)C	4192.0	0.36		
+Verapamil	COc1ccc(cc1OC)CCN(CCCC(C#N)(C(C)C)c1ccc(c(c1)OC)OC)C	2520.0	-0.7		
+Promazine	CN(CCCN1c2ccccc2Sc2ccccc12)C	4926.0	1.23		
+Chlorpromazine	CN(CCCN1c2ccccc2Sc2ccc(cc12)Cl)C	2726.0	1.06		
+Trifluoroperazine	CN1CCN(CCCN2c3c(ccc(c3)C(F)(F)F)Sc3ccccc23)CC1	5566.0	1.44		
+Thioridazine	C1CN(C(CCN2c3ccccc3Sc3ccc(cc23)SC)CC1)C	5452.0	0.24		
+Phenserine	c1ccc(cc1)NC(=O)Oc1ccc2c(c1)C1(C(N2C)N(CC1)C)C	612745.0	1.0		
+Physostigmine	CNC(=O)Oc1ccc2c(c1)C1(C)CCN(C1N2C)C	4811.0	0.079		
+Didanosine	OCC1OC(n2cnc3c2\N=C/NC3=O)CC1	135422442.0	-1.301		
+Zidovudine	CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)N=[N+]=[N-]	35370.0	-0.72		
+Nevirapine	c1cnc2c(c1)C(=O)Nc1c(ccnc1N2C1CC1)C	4463.0	0.0		
+SB-222200	CCC(NC(=O)c1c(c(nc2c1cccc2)c1ccccc1)C)c1ccccc1	3946663.0	0.3		
+Ibuprofen	CC(Cc1ccc(cc1)C(C(=O)O)C)C	3672.0	-0.18		
+BCNU	N(C(=O)NCCCl)(N=O)CCCl	2578.0	-0.52		
+Terbutylchlorambucil	C(=O)(OC(C)(C)C)CCCc1ccc(cc1)N(CCCl)CCCl	83909.0	1.0		
+nan	c1c(ncn1[H])C1CCN(CC1)C(=S)NC1CCCCC1	3035905.0	-0.161		
+Acetylsalicylic acid	CC(=O)OC1=CC=CC=C1C(=O)O	2244.0	-0.5		
+Valproic acid	CCCC(CCC)C(=O)O	3121.0	-0.22		
+Theophylline	CN1C2=C(C(=O)N(C1=O)C)NC=N2	2153.0	-0.29		
+Caffeine	CN1C=NC2=C1C(=O)N(C(=O)N2C)C	2519.0	-0.055		
+Antipyrine	CC1=CC(=O)N(N1C)C2=CC=CC=C2	2206.0	-0.097		
+Salicylic acid	C1=CC=C(C(=C1)C(=O)O)O	338.0	-1.1		
+Ranitidine	CN/C(=C\[N+](=O)[O-])/NCCSCC1=CC=C(O1)CN(C)C	3001055.0	-1.23		
+Acetaminophen	CC(=O)NC1=CC=C(C=C1)O	1983.0	-0.31		
+Lbuprofen	CC(C)CC1=CC=C(C=C1)C(C)C(=O)O	3672.0	-0.18		
+Clonidine	C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl	2803.0	0.11		
+Codeine	CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O	5284371.0	0.55		
+Pentobarbital	CCCC(C)C1(C(=O)NC(=O)NC1=O)CC	4737.0	0.12		
+Cimetidine	CC1=C(N=CN1)CSCCNC(=NC)NC#N	2756.0	-1.42		
+Alprazolam	CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4	2118.0	0.044		
+Pyrilamine	CN(C)CCN(CC1=CC=C(C=C1)OC)C2=CC=CC=N2	4992.0	0.5		
+Indomethacin	CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O	3715.0	-1.26		
+Oxazepam	C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O	4616.0	0.61		
+Hydroxyzine	C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl	3658.0	0.39		
+Imipramine	CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31	3696.0	1.3		
+Desipramine	CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31	2995.0	1.2		
+Midazolam	CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F	4192.0	0.36		
+Verapamil	CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC	2520.0	-0.7		
+Promazine	CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C31	4926.0	1.23		
+Chlorpromazine	CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl	2726.0	1.06		
+Trifluoperazine	CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F	5566.0	1.44		
+Thioridazine	CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC	5452.0	0.24		
+nan	C1c2c(N(CCCNC)c3ccccc3C1)cccc2	2995.0	1.0		
+nan	C1c2c(N(CCCN(C)C)c3ccccc3C1)cccc2	3696.0	1.05		
+nan	CN1CCN2c3c(Cc4ccccc4C2C1)cccc3	4184.0	0.99		
+nan	CN(CCC=C1c2c(CCc3c1cccc3)cccc2)C	2160.0	0.98		
+nan	OC12c3c(Oc4c(C)cccc4C2CN(CC1)C)cccc3	9860946.0	0.82		
+nan	Clc1cc2c(Oc3ccccc3C3CN(CC32)C)cc1	9903970.0	1.03		
+nan	FC(c1ccc([nH0]c1Cl)N1CCNCC1)(F)F	9796408.0	1.64		
+nan	O=C1N(CCCCN2CCN(c3[nH0]ccc(c3)C(F)(F)F)CC2)CCC1	9907401.0	0.16		
+nan	OC12c3c(Oc4c(C)cccc4C2CNCC1)cccc3		0.52		
+nan	Clc1cc2c(Oc3ccccc3C3CNCC32)cc1	14577084.0	0.39		
+nan	CN1CCN2c3c(Cc4ccccc4C2C1)ccc[nH0]3	4205.0	0.53		
+nan	C#CC1(C2(C(C3C(C)CC4=C(C3CC2)CCC(C4)=O)CC1)C)O	5470.0	0.4		
+nan	c1c(c(NC2NCCN=2)c(Cl)cc1)Cl	2803.0	0.11		
+nan	NC(N1c2ccccc2C=Cc2c1cccc2)=O	2554.0	0.0		
+nan	O1C2c3c(N(c4ccccc4C12)C(=O)N)cccc3	2555.0	-0.33		
+nan	C(SCc1[nH0]c[nH]c1C)CNC(=NC#N)NC	2756.0	-1.42		
+nan	CNC(=C[N+](=O)[O–])NCCSCc1oc(cc1)CN(C)C		-1.23		
+nan	c1c[nH0]c(N(CCN(C)C)Cc2ccc(OC)cc2)cc1	4992.0	0.49		
+nan	c1c[nH0]c(CCCCNC2=NC(C(=CN2)Cc2c[nH0]c(cc2)C)=O)c(OC)c1	72108.0	-2.0		
+nan	Cc1[nH0]cc(CC2=CNC(=NC2=O)NCCSCc2oc(cc2)CN(C)C)cc1	4375468.0	-1.06		
+nan	c1cc2c(N(CCCN3CCC(N4C(Nc5c4ccc(c5)Cl)=O)CC3)C(=O)N2)cc1	3151.0	-0.78		
+nan	NC(c1c(c2c3ccccc3o[nH0]2)cccc1)CC=C	9861160.0	0.0		
+nan	C1CC2N(C(C(CCN3CCC(c4[nH0]oc5c4ccc(c5)F)CC3)=C(C)N=2)=O)CC1	5073.0	-0.02		
+nan	OC1C2N(C(C(CCN3CCC(c4[nH0]oc5c4ccc(c5)F)CC3)=C(C)N=2)=O)CCC1	115237.0	-0.67		
+nan	CN1C(c2c(cccc2[nH0]2c[nH0]c(c2C1)c1[nH0]c(o[nH0]1)C(C)C)Cl)=O	129710.0	-0.3		
+nan	OC(c1[nH0]c(c2c3CN(C(c4c(cccc4[nH0]3c[nH0]2)Cl)=O)C)[nH0]o1)(C)C	10384745.0	-1.34		
+nan	OCC(c1[nH0]c(c2c3CN(C(c4c(cccc4[nH0]3c[nH0]2)Cl)=O)C)[nH0]o1)(C)O	10091748.0	-1.82		
+nan	Brc1cc(c(CCCCNC2=NC(C(=CN2)Cc2ccc([nH0]c2)C)=O)[nH0]c1)C	55482.0	-1.88		
+nan	c1cc2c(cc(CC3=CNC(=NC3=O)NCCSCc3oc(cc3)CN(C)C)cc2)cc1	14022522.0	-1.3		
+nan	CN(c1cc(c2[nH0]c([nH][nH0]2)N)cc[nH0]1)C	12889418.0	-1.17		
+nan	c1c[nH0]c(CSCCNc2c(cc[nH]2)[N+]([O–])=O)c(Br)c1		-0.67		
+nan	c1cc([nH0]cc1)CSCCNc1c(cc[nH]1)[N+]([O–])=O		-0.66		
+nan	c1c(cc(c2[nH0]c(sc2)N=C(N)N)cc1)N	14022509.0	-1.15		
+nan	c1c(NC(=O)C)cc(c2[nH0]c(sc2)N=C(N)N)cc1	14022511.0	-1.57		
+nan	CN(Cc1ccc(o1)CSCCNc1c(cc[nH]1)[N+]([O–])=O)C		-1.12		
+nan	c1ccc(Cc2c(c([nH]c2)NCCSCc2oc(cc2)CN(C)C)[N+]([O–])=O)cc1		-0.73		
+nan	CN(Cc1oc(c2cc(Nc3c(cc[nH]3)[N+]([O–])=O)ccc2)cc1)C		-0.27		
+nan	CN(Cc1cc(c2cc(Nc3c(cc[nH]3)[N+]([O–])=O)ccc2)[nH0]cc1)C		-0.28		
+nan	C1CCN(CC1)Cc1cc(OCCCNC(=O)C)ccc1	9971484.0	-0.46		
+nan	c1ccc(C(NCCCOc2cc(CN3CCCCC3)ccc2)=O)cc1	10498206.0	-0.24		
+nan	C1CCN(CC1)Cc1cc(OCCCO)ccc1	10444765.0	-0.02		
+nan	C1CCN(CC1)Cc1cc(OCCCNc2[nH0]cccc2)ccc1	10019237.0	0.69		
+nan	C1CCN(Cc2cccc(c2)OCCCNc2scc[nH0]2)CC1	14022497.0	0.44		
+nan	C1CCN(Cc2cccc(c2)OCCCNc2sc3c([nH0]2)cccc3)CC1	91769.0	0.14		
+nan	C1CCN(Cc2cccc(c2)OCCCNc2[nH0]c3c(o2)cccc3)CC1	14022499.0	0.22		
