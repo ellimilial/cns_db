@@ -10,5 +10,6 @@ plotly~=5.18.0
 scipy~=1.11.1
 scikit-learn~=1.4.2
 twinning@git+https://github.com/avkl/twinning.git@8c6ffdd73531039733a52f0f8cf67efe4f38383f
+nonconformist@git+https://github.com/donlnz/nonconformist@c32760d82c9c4621a9a241b013a6f89e65e06059
 hyperopt~=0.2.7
 xgboost~=1.7.6
