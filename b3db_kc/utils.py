@@ -11,6 +11,14 @@ from rdkit.Chem import rdFingerprintGenerator, Descriptors
 
 LOGGER = logging.getLogger(__file__)
 
+COLOUR_CNSDB = "#0072B2"
+COLOUR_B3DB = "#D55E00"
+COLOUR_CHEMBL = "#689E38"
+COLOUR_GRAY="#808080"
+COLOUR_NEGATIVE = "#1f77b4"
+COLOUR_POSITIVE = "#ff7f0e"
+
+
 @cache
 def smiles_to_mol(smiles, verbose=False):
     with datamol.without_rdkit_log():
@@ -70,7 +78,10 @@ def chembl_parent_from_smiles(smi):
 def smiles_to_fingerprint_tuple(smi):
     if pd.isna(smi):
         return None
-    return tuple(get_ecfp4_count_fingerprint(smi).ToList())
+    fp = get_ecfp4_count_fingerprint(smi)
+    if not fp:
+        return None
+    return tuple(fp.ToList())
 
 
 def calculate_cns_mpo_score_wager_2010(c_log_p, c_log_d, mw, tpsa, hbd, pka):
@@ -118,21 +129,20 @@ def normalise_chembl_indication_class(ic):
                 rv.append(_j.strip())
         else:
             rv.append(_i.strip())
-    return rv
+    return [r for r in rv if pd.notna(r) and r != "nan"]
 
 
-def get_chembl_drugs():
-    """
-    In our analyses, drugs set consists of small molecules with weight <= 1kD that reached at least clinical trial phase 3 and have not been withdrawn, for which SMILES is available.
-    """
-    _df_chembl_molecule_properties = pd.read_csv(Path(__file__).resolve().parent.parent / "data" / "ChEMBL" / "chembl_molecule_properties.csv.gz", low_memory=False)
+def get_chembl_small_molecules(min_max_phase=0):
+    _df_chembl_molecule_properties = pd.read_csv(
+        Path(__file__).resolve().parent.parent / "data" / "ChEMBL" / "chembl_molecule_properties.csv.gz",
+        low_memory=False)
     _df = _df_chembl_molecule_properties[
         (_df_chembl_molecule_properties.molecule_type == "Small molecule") &
-        #(_df_chembl_molecule_properties.therapeutic_flag == 1) &
-        (_df_chembl_molecule_properties.max_phase >= 3) &
+        # (_df_chembl_molecule_properties.therapeutic_flag == 1) &
+        (_df_chembl_molecule_properties.max_phase >= min_max_phase) &
         (_df_chembl_molecule_properties.withdrawn_flag == 0) &
         (pd.notna(_df_chembl_molecule_properties.canonical_smiles))
-    ].copy()
+        ].copy()
     _df["mol"] = _df.canonical_smiles.apply(lambda x: smiles_to_mol(x))
     _n_pre_removal = len(_df)
     _df = _df[_df.mol.apply(Descriptors.ExactMolWt) >= 50]
@@ -141,8 +151,15 @@ def get_chembl_drugs():
     return _df
 
 
-def get_chembl_drugs_with_descriptors(descriptors=["desc2D", "ecfp-count", "maccs"]):
-    df = get_chembl_drugs().reset_index(drop=True)
+def get_chembl_drugs():
+    """
+    In our analyses, drugs set consists of small molecules with weight <= 1kD that reached at least clinical trial phase 3 and have not been withdrawn, for which SMILES is available.
+    """
+    return get_chembl_small_molecules(min_max_phase=3)
+
+
+def get_chembl_small_molecules_with_descriptors(min_max_phase=0, descriptors=["desc2D", "ecfp-count", "maccs"]):
+    df = get_chembl_small_molecules(min_max_phase=min_max_phase).reset_index(drop=True)
     df = df.rename(columns={
         "cx_logd": "chemaxon_logd",
         "cx_logp": "chemaxon_logp",
@@ -153,17 +170,16 @@ def get_chembl_drugs_with_descriptors(descriptors=["desc2D", "ecfp-count", "macc
             tr = FPVecTransformer(kind=dt, dtype=float, n_jobs=16, verbose=False)
             _d = pd.DataFrame(tr(df["mol"]), columns=[f"{dt}_{c}" for c in tr.columns])
             df = df.join(_d)
-    #df = df.drop(columns=["mol"])
     _pre_removal = len(df)
     df = df[pd.notna(df["chemaxon_logd"])]
-    LOGGER.warning(f"Discarded {_pre_removal - len(df)} drugs without logD or logP specified. {len(df)} remaining.")
-    LOGGER.warning(f"Imputing {sum(pd.isna(df.chemaxon_pka_b))} missing most basic group pKa with 0. Used here to allow data exploration as some of the algorithms cannot work on missing values.")
-    #_pre_drop = list(df)
-    #df = df.dropna(axis=1)
+    LOGGER.warning(f"Discarded {_pre_removal - len(df)} molecules without logD or logP specified. {len(df)} remaining.")
+    LOGGER.warning(
+        f"Imputing {sum(pd.isna(df.chemaxon_pka_b))} missing most basic group pKa with 0. Used here to allow data exploration as some of the algorithms cannot work on missing values.")
     df = df.fillna(0)
-    #LOGGER.warning(f"Dropped {len(_pre_drop) - len(list(df))} nan-containing descriptors from ChEMBL drugs")
-
     return df
+
+def get_chembl_drugs_with_descriptors(descriptors=["desc2D", "ecfp-count", "maccs"]):
+    return get_chembl_small_molecules_with_descriptors(min_max_phase=3, descriptors=descriptors)
 
 
 def get_drugbank_small_molecule_drugs():

@@ -537,7 +537,6 @@ LogBB taken from
 R49, R32, R33(not relevant) logBB looks mangled by excel (i.e. uses integer, needs fixing)
 !!!
 
-
 R51 Doninger 2002
  - Fischer 1998
  - Ajay 1999
@@ -549,10 +548,38 @@ R51 Doninger (2002) Scott Doniger, Thomas Hofmann, and Joanne Yeh. Predicting CN
 R52 Liu (2001) Liu, Ruifeng, Hongmao Sun, and Sung-Sau So. "Development of quantitative structure− property relationship models for early ADME evaluation in drug discovery. 2. Blood-brain barrier penetration." Journal of chemical information and computer sciences 41.6 (2001): 1623-1632.
 R53 Friden (2009) M. Fridén, S. Winiwarter, G. Jerndal, O. Bengtsson, H. Wan, U. Bredberg, M. Hammarlund-Udenaes, M. Antonsson Structure–brain exposure relationship in rat and human using a novel data set of unbound drug concentrations in brain interstitial and cerebrospinal fluids
 
-
 To check 
 R46: YG16(thiazole22aminoethyl)
 
+
+Tang 2022
+	- Martins 2012
+	- Liu 2021
+	- Shaker 2021
+	- Adenot 2004
+	- Gao 2017
+	- Plisson 2019
+
+Liu 2021
+    - Zhao 2007 - pass thwought to Adenot and Lahana
+    - Wang 2018
+    - Wang 2015
+    - Li 2005
+
+
+EXTENSION - addition of peptides
+ - some of the databases will not be useless as they don't include e.g. cysteine bridges 
+ -  
+
+Chen 2022 (BBPredict) - blood brain permeating peptides
+https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.845747/full
+    - Van Dorpe 2012 - this is actually useful as there are 
+    - Kumar 2021a B3Pred
+    - Kumar 2021b B3Pdb
+    - custom search of pubmed literature (hand curated?)
+
+
+Additional  
 
 Fu 2005:
 Young et al. 1988; + 
