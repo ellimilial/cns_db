@@ -8,13 +8,13 @@ requests~=2.31.0
 seaborn~=0.13.2
 plotly~=5.18.0
 scipy~=1.11.1
-scikit-learn~=1.4.2
+scikit-learn~=1.6.1
 twinning@git+https://github.com/avkl/twinning.git@8c6ffdd73531039733a52f0f8cf67efe4f38383f
 nonconformist@git+https://github.com/donlnz/nonconformist@c32760d82c9c4621a9a241b013a6f89e65e06059
 hyperopt~=0.2.7
 xgboost~=3.0.2
 xlrd~=2.0.1
-statsmodels~=0.14.4
-imblearn  # unversioned
+statsmodels~=0.11-4.4
+imbalanced-learn~=0.13.0
 gplearn~=0.4
 optuna~=4.3
