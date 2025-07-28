@@ -1,0 +1,329 @@
+compound_name	smiles	CID	logBB	BBB+/BBB-	comments
+Argon	[Ar] 	23968.0	0.03		
+Krypton	[Kr] 	5416.0	-0.16		
+Neon	[Ne] 	23935.0	0.2		
+Radon	[Rn] 	24857.0	-0.12		
+Xenon	[Xe] 	23991.0	0.15		
+Nitrogen	[N][N] 	9321.0	0.03		
+Nitrous Oxide	[N-]=[N+]=O 	948.0	0.03		
+Methane	C 	297.0	0.03		
+Pentane	CCCCC 	8003.0	0.6324226808222062		
+Hexane	CCCCCC 	8058.0	0.68		
+Heptane	CCCCCCC 	8900.0	0.4417108425811176		
+Octane	CCCCCCCC 	356.0	0.6887419721069531		
+Nonane	CCCCCCCCC 	8141.0	0.52		
+Decane	CCCCCCCCCC 	15600.0	0.665		
+2-Methylpentane (Isohexane)	CC(C)CCC	7892.0	0.9697835966168101		
+2-Methyl heptane	CC(C)CCCC	11582.0	0.86		
+2-Methyl octane	CC(C)CCCCC	11594.0	0.98		
+2-Methyl nonane	CC(C)CCCCCC	18591.0	1.05		
+3-Methylpentane	CCC(C)CC 	7282.0	1.0134526764861875		
+3-Methylhexane	CCCC(C)CC 	11507.0	0.8986001717619175		
+2,2-Dimethylbutane	CCC(C)(C)C 	6403.0	1.0371580313422193		
+Cyclopropane	C1CC1 	6351.0	0.11		
+Methylcyclopentane	CC1CCCC1 	7296.0	0.933322860120456		
+Cyclohexane	C1CCCCC1 	8078.0	1.11		
+Methylcyclohexane	CC1CCCCC1 	7962.0	0.96		
+1,2-Dimethylcyclohexane	C1CC(C)C(C)CC1	11416.0	1.07		
+t-Butylcyclohexane 	CC(C1CCCCC1)(C)C	18508.0	0.61		
+1,2,4-Trimethylcyclohexane	C1C(C)C(C)CC(C)C1 	91517.0	1.02		
+Dichloromethane 	ClCCl	6344.0	-0.3418487496163565		
+Chloroform	ClC(Cl)Cl 	6212.0	0.15102999566398134		
+1,1-dichloroethane	ClC(Cl)C	6365.0	-0.28		
+1,2-dichloroethane	ClCCCl	11.0	-0.14		
+1,1,1-Trichloroethane	CC(Cl)(Cl)Cl	6278.0	0.28907809237607396		
+1,1,2-trichloroethane	ClC(Cl)CCl	6574.0	-0.1		
+1,1,1,2-tetrachloroethane	ClC(Cl)(Cl)CCl	12418.0	0.33		
+1-Chloro-2,2,2-trifluroethane	ClCC(F)(F)F	6408.0	0.11527250510330606		
+1-bromopropane	BrCCC	7840.0	0.27		
+2-bromopropane	CC(Br)C	6358.0	0.56		
+Teflurane	FC(Br)C(F)(F)F	31300.0	0.2672748673841795		
+Halothane	FC(F)(F)C(Cl)Br 	3562.0	0.14208827093898024		
+Sulphur Hexafluoride	FS(F)(F)(F)(F)F	17358.0	0.39		
+ethylene (ethene)	C=C	6325.0	0.305		
+trans 1,2-dichloroethene	ClC=CCl	10900.0	0.04		
+cis 1,2-dichloroethene	ClC=CCl	10900.0	-0.13		
+tetrachloroethylene	ClC(Cl)=C(Cl)Cl	31373.0	0.37		
+Propene (Propylene)	CC=C	8252.0	-0.06		
+1-Octene	CCCCCCC=C 	8125.0	0.74		
+1-Nonene	CCCCCCCC=C 	31285.0	0.86		
+1-Decene	CCCCCCCCC=C	13381.0	0.96		
+1,3-Butadiene	C=CC=C 	7845.0	-0.1663598306747482		
+Trichloroethene	ClC=C(Cl)Cl	6575.0	0.105		
+1-Chloro-2,2-difluroethylene	ClC=C(F)F	9664.0	-0.02		
+Carbon Disulfide	S=C=S 	6348.0	0.6		
+Methanol	CO	887.0	0.02		
+Ethanol	CCO 	702.0	-0.1240791967317505		
+1-Propanol	CCCO 	1031.0	-0.0818200846626258		
+1-Butanol	CCCCO	263.0	-0.023095148663527354		
+1-Pentanol	CCCCCO 	6276.0	0.2034237554869498		
+2-Propanol (Isopropanol)	CC(C)O	3776.0	-0.11346077825829015		
+2-Methyl-1-propanol (Isobutanol)	CC(C)CO	6560.0	-0.14		
+3-Methyl-1-butanol (Isopentanol)	CCC(C)CO	8723.0	0.03816837114116778		
+t-butanol	CC(C)(C)O	6386.0	0.11		
+amylene-hydrate (tertiary-amyl alcohol)	CCC(C)(C)O	6405.0	0.07000000000000028		
+Diethyl ether	CCOCC 	3283.0	-0.01		
+Ethyl t-butyl ether 	CC(OCC)(C)C	12512.0	0.22		
+Methyl t-butyl ether 	CC(OC)(C)C	15413.0	0.36		
+tertiary-Amyl methyl ether 	CCC(C)(C)OC	61247.0	0.17		
+Methoxyflurane	COC(F)(F)C(Cl)Cl	4116.0	0.11869491316936465		
+Isoflurane	FC(F)OC(Cl)C(F)(F)F 	3763.0	0.19		
+Enflurane	FC(F)OC(F)(F)C(F)Cl 	3226.0	0.14		
+sevoflurane	FCOC(C(F)(F)F)C(F)(F)F	5206.0	0.3		
+Ethylene Oxide	C1CO1 	6354.0	0.01		
+Fluroxene	FC(F)(F)COC=C 	9844.0	0.14		
+Divinyl ether (vinyl ether)	C=COC=C 	8024.0	0.13		
+Acetone	CC(C)=O	180.0	-0.17		
+2-Butanone (Methyl ethyl ketone)	CC(=O)CC	6569.0	-0.17		
+2-pentanone	CCCC(C)=O	7895.0	-0.01		
+Methyl acetate	COC(C)=O 	6584.0	-0.1342819820333414		
+Ethyl acetate	CCOC(C)=O 	8857.0	0.0030899869919436274		
+Propyl acetate 	CC(OCCC)=O	7997.0	0.11956548822598245		
+Butyl acetate	CCCCOC(C)=O 	31272.0	0.2774839442139063		
+Pentyl acetate 	CC(OCCCCC)=O	12348.0	0.40021124171160594		
+Isopropyl acetate	CC(C)OC(C)=O	7915.0	0.3989017609702137		
+Isobutyl acetate	CC(C)COC(=O)C	8038.0	0.4498790864012365		
+Isopentylacetate 	CC(OCCC(C)C)=O	31276.0	0.5543922736851106		
+Benzene	c1ccccc1 	241.0	0.19763625255165285		
+Toluene	c1ccccc1C	1140.0	0.2705506918245282		
+o-Xylene	c1c(C)c(C)ccc1 	7237.0	0.41		
+m-xylene	c1(C)cc(C)ccc1 	7929.0	0.22		
+p-xylene 	Cc1ccc(C)cc1 	7809.0	0.38		
+ethylbenzene	CCc1ccccc1	7500.0	0.26		
+styrene	C=Cc1ccccc1	7501.0	0.45		
+t-Butylbenzene 	CC(C)(C)c1ccccc1 	7366.0	0.43		
+1,2,4-Trimethylbenzene (Pseudocumene)	Cc1ccc(C)c(C)c1	7247.0	0.16		
+4-Chlorobenzotrifluoride	FC(F)(F)c1ccc(Cl)cc1	7394.0	0.17		
+propargyl alcohol	OCC#C	7859.0	-0.23		
+acrylonitrile	C=CC#N	7855.0	-0.4		
+1-(3-Fluoropropyl)-2-nitroimidazole (FPN)	c1cn(CCCF)c(N(=O)=O)n1	10352163.0	-0.24		
+1-(8-fluorooctyl)-2-nitroimidazole (FON)	FCCCCCCCCn1c(ncc1)N(=O)=O	10377120.0	-0.17		
+16a-fluoroestradiol (estradiol16afluoro)	Oc1ccc2C3CCC4(C)C(O)C(F)CC4C3CCc2c1 	14211618.0	-0.3010299956639812		
+1-hexyl-4-(4-iodophenyl)piperazine	c1cc(I)ccc1N2CCN(CCCCCC)CC2	13720676.0	1.01		
+1-hydroxymidazolam	OCc3ncc4CN=C(c1ccccc1F)c2cc(Cl)ccc2n34	107917.0	-0.07		
+1-isobutyl-4-(4-iodophenyl)piperazine	c1cc(I)ccc1N2CCN(C(C)CC)CC2		1.38		
+4-Fluoroantipyrine	FC=1C(N(N(C=1C)C)c2ccccc2)=O	12718749.0	-0.05		
+4-hydroxymidazolam	Cc3ncc4C(O)N=C(c1ccccc1F)c2cc(Cl)ccc2n34	124449.0	-0.03		
+4-iodo-alpha,alpha'-dipiperidino-m-xylene	Ic1c(CN2CCCCC2)cc(CN3CCCCC3)cc1	12780299.0	0.98		
+4-Iodoantipyrine OK 	Cc2c(I)c(=O)n(c1ccccc1)n2C 	8522.0	-0.1		
+4-iodo-N,N'-isopropyl-m-xylenediamine	Ic1c(NC(C)CC)cc(NC(C)CC)cc1		0.64		
+5-Butyl-5-ethyl barbituric acid (Butethal)	O=C1C(CCCC)(CC)C(=O)NC(=O)N1	6473.0	0.187520720836463		
+5-Heptyl-5-ethyl barbituric acid	O=C1C(CCCCCCC)(CC)C(=O)NC(=O)N1	43473.0	0.0170333392987803		
+5-Hexyl-5-ethyl barbituric acid	O=C1C(CCCCCC)(CC)C(=O)NC(=O)N1	8942.0	0.363611979892144		
+5-Methyl-5-ethyl barbituric acid	O=C1C(C)(CC)C(=O)NC(=O)N1	95705.0	-0.221848749616356		
+5-Octyl-5-ethyl barbituric acid	O=C1C(CCCCCCCC)(CC)C(=O)NC(=O)N1	13755681.0	0.240549248282599		
+5-Pentyl-5-ethyl barbituric acid	O=C1C(CCCCC)(CC)C(=O)NC(=O)N1	66994.0	0.0863598306747482		
+5-Propyl-5-ethyl barbituric acid	O=C1C(CCC)(CC)C(=O)NC(=O)N1	46516.0	0.0863598306747482		
+9-OH Risperidone	O=C1N5CCCC(C5=NC(=C1CCN2CCC(CC2)c3c4ccc(cc4on3)F)C)O	115237.0	-0.67		
+AFE	FCCc1cc(N)c(Sc2c(N(C)C)cccc2)cc1		0.5481846105451078		
+AI-9 (YH1885)	CC1N(CCc2ccccc12)c4nc(Nc3ccc(F)cc3)nc(C)c4C	204104.0	0.6749		
+alaptide	C1CCCC12C(=O)NC(C)C(=O)N2	541931.0	-0.26		
+alovudine ok	Cc2cn(C1CC(F)C(CO)O1)c(=O)[nH]c2=O 	284240.0	-0.59		
+alpha-(4-pyridyl-1-oxide)-N-tert-butylnitrone	c1cn(=O)ccc1C=N(=O)C(C)(C)C		-0.38		
+Alprazolam	Cc3nnc4CN=C(c1ccccc1)c2cc(Cl)ccc2n34 	2118.0	0.04		
+Alprazolam	Cc3nnc4CN=C(c1ccccc1)c2cc(Cl)ccc2n34 	2118.0	-0.04		
+Aminopyrine OK	CN(C)c2c(C)n(C)n(c1ccccc1)c2=O 	6009.0	0.0		
+Amobarbital (5-Ethyl-5-(3-methylbutyl)barbital)	CCC1(CCC(C)C)C(=O)NC(=O)NC1=O	2164.0	0.04		
+Antipyrine OK	Cc2cc(=O)n(c1ccccc1)n2C	2206.0	-0.1		
+Antipyrine OK	Cc2cc(=O)n(c1ccccc1)n2C	2206.0	-0.22		
+atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	2249.0	-0.6989700043360187		
+Barbital (5-Ethyl-5-ethyl barbituric acid)	CCC1(CC)C(=O)NC(=O)NC1=O	2294.0	-0.136677139879544		
+Beloxepin (Org4428)	CN2CC1c4cccc(c4Oc3c(C1(O)CC2)cccc3)C	9860946.0	0.82		
+BESP	CCN3CN(C2(CCN(CCCC(c1ccc(F)cc1)=O)CC2)C3=O)c4ccc(cc4)Br		-0.43		
+betahistine (Y-G 14)	CNCCc1ncccc1	2366.0	-0.3		
+Biperiden	OC(CCN1CCCCC1)(C2CC3CC2C=C3)c4ccccc4 	2381.0	0.845098040014256		
+bisphenol A	CC(C)(c1ccc(O)cc1)c2ccc(O)cc2	6623.0	-0.12		
+BMSP	Brc4ccc(N3C2(CCN(CCCC(c1ccc(F)cc1)=O)CC2)C(N(C3)C)=O)cc4		-0.55		
+BPSP	CCCN3CN(C2(CCN(CCCC(c1ccc(F)cc1)=O)CC2)C3=O)c4ccc(cc4)Br		-0.01		
+bretazenil	CC(C)(C)OC(=O)c1ncn3c1C2CCCN2C(=O)c4cc(Br)ccc34		-0.09		
+BSP	Brc4ccc(N3C2(CCN(CCCC(c1ccc(F)cc1)=O)CC2)C(NC3)=O)cc4	156386.0	0.07		
+butyl 4-aminobenzoate	CCCCOC(=O)c1ccc(N)cc1	2482.0	0.42		
+Caffeine (1,3,7-Trimethylxanthine)	Cn1cnc2n(C)c(=O)n(C)c(=O)c12 	2519.0	-0.06		
+Caffeine (1,3,7-Trimethylxanthine)	Cn1cnc2n(C)c(=O)n(C)c(=O)c12 	2519.0	0.119		
+carbamazepine	NC(=O)N2c1ccccc1C=Cc3ccccc23	2554.0	0.0		
+Carmustine (BCNU)	ClCCNC(=O)N(CCCl)N=O	2578.0	-0.52		
+carteolol	CC(C)(C)NCC(O)COc1cccc2NC(=O)CCc12	2583.0	-0.4		
+Chlorpromazine	CN(C)CCCN2c1ccccc1Sc3ccc(Cl)cc23 	2726.0	1.06		
+Chlorpromazine	CN(C)CCCN2c1ccccc1Sc3ccc(Cl)cc23 	2726.0	1.06		
+Chlorpromazine	CN(C)CCCN2c1ccccc1Sc3ccc(Cl)cc23 	2726.0	1.0607		
+Clobazam	CN2C(=O)CC(=O)N(c1ccccc1)c3cc(Cl)ccc23 	2789.0	0.35		
+Clonidine (SKB6)	Clc1cccc(Cl)c1N=C2NCCN2 	2803.0	0.11		
+Cocaine	COC(=O)C1C(CC2CCC1N2C)OC(=O)c3ccccc3 	2826.0	0.5999		
+Codeine	COc1ccc2CC5C3C=CC(O)C4Oc1c2C34CCN5C 	2828.0	-0.22		
+Cotinine	CN1C(CCC1=O)c2cccnc2 	408.0	-0.32		
+Cotinine	CN1C(CCC1=O)c2cccnc2 	408.0	-0.3768		
+daidzein OK	Oc1ccc(cc1)c3coc2cc(O)ccc2c3=O 	5281708.0	-0.15		
+Desipramine	CNCCCN2c1ccccc1CCc3ccccc23 	2995.0	1.0		
+desmethydesipramine (didesipramine or Desdimethylimipramine)	c1cc2N(CCCN)c3ccccc3CCc2cc1	159642.0	1.06		
+Desmethylclobazam	Clc1cc2N(c3ccccc3)C(=O)CC(=O)Nc2cc1	89657.0	0.36		
+Desmethyldiazepam	Clc2cccc3NC(=O)CN=C(c1ccccc1)c23 	14590445.0	0.5		
+desmonomethylpromazine (Monodesmethylpromazine)	c1cc2N(CCCNC)c3ccccc3Sc2cc1	28315.0	0.59		
+Diazepam	CN2C(=O)CN=C(c1ccccc1)c3cc(Cl)ccc23 	3016.0	0.0294		
+Diazepam	CN2C(=O)CN=C(c1ccccc1)c3cc(Cl)ccc23 	3016.0	0.52		
+Didanosine (2',3'-dideoxyinosine)	OCC1CCC(O1)n2cnc3c(=O)[nH]cnc23 	135422442.0	-1.3		
+diphenhydramine	CN(C)CCOC(c1ccccc1)c2ccccc2	3100.0	1.26		
+domperidone	Clc5ccc4n(C3CCN(CCCn1c(=O)[nH]c2ccccc12)CC3)c(=O)[nH]c4c5	3151.0	-0.925		
+doxylamine	CN(C)CCOC(C)(c1ccccc1)c2ccccn2	3162.0	0.64		
+ethenzamide (o-Ethoxybenzamide and AI-5)	CCOc1ccccc1C(N)=O	3282.0	-0.0458		
+ethyl 4-aminobenzoate	CCOC(=O)c1ccc(N)cc1	2337.0	0.27		
+Fentanyl	CCC(=O)N(C1CCN(CC1)CCc2ccccc2)c3ccccc3 	3345.0	0.6		
+Fentanyl	CCC(=O)N(C1CCN(CC1)CCc2ccccc2)c3ccccc3 	3345.0	0.556302500767287		
+FFMZ	Fc1ccc2N3cnc(C(=O)OC(F)C)c3CN(C)C(=O)c2c1		-0.09478631937820091		
+flumazenil	CCOC(=O)c1ncn2c1CN(C)C(=O)c3cc(F)ccc23	3373.0	-0.29		
+Flunitrazepam	CN2C(=O)CN=C(c1ccccc1F)c3cc(ccc23)N(=O)=O 	3380.0	0.06		
+fluoroethylfumazrnil	CCOC(=O)c1ncn2c1CN(CCF)C(=O)c3cc(F)ccc23	6426759.0	-0.14		
+fluoromisonidazole	c1cnc(N(=O)=O)n1CC(O)COCF	23274095.0	-0.01		
+Fluoxetine	CNCCC(Oc1ccc(cc1)C(F)(F)F)c2ccccc2	3386.0	0.36		
+glycyrrhetinic acid	CC1(C)C(O)CCC2(C)C1CCC4(C)C2C(=O)C=C5C3CC(C)(CCC3(C)CCC45C)C(O)=O 	3230.0	-1.3979		
+HEPP (beta-ethyl-beta-hydroxybenzenepropanamide)	c1ccccc1C(O)(CC)CC(=O)N	64814.0	0.04		
+Hexobarbital 	CN2C(=O)NC(=O)C(C)(C1=CCCCC1)C2=O 	3608.0	0.1		
+Hexobarbital 	CN2C(=O)NC(=O)C(C)(C1=CCCCC1)C2=O 	3608.0	0.0453229787866574		
+Hydroxyzine	OCCOCCN1CCN(CC1)C(c2ccccc2)c3ccc(Cl)cc3 	3658.0	0.39		
+I-1	Ic1cc(C(=O)CCCN2CCC3(C(=O)N(C)CN3c4ccccc4)CC2)cS1		-0.2540334329877576		
+I-4 (44cyanophenoxymethylpiperidineniodoallyl)	IC=CCN1CCC(CC1)COc2ccc(C#N)cc2		1.13433651094868		
+Ibuprofen (a-Methyl-4-isobutylphenylacetic acid)	CC(C)Cc1ccc(cc1)C(C)C(O)=O 	3672.0	-0.18		
+Imipramine (SKB8)	CN(C)CCCN2c1ccccc1CCc3ccccc23 	3696.0	0.83		
+Indinavir	CC(C)(C)NC(=O)C1CN(CCN1CC(O)CC(Cc2ccccc2)C(=O)NC3C(O)Cc4ccccc34)Cc5cccnc5 	3706.0	-0.7447		
+Indomethacin	COc3ccc2n(C(=O)c1ccc(Cl)cc1)c(C)c(CC(O)=O)c2c3 	3715.0	-1.26		
+Indomethacin	COc3ccc2n(C(=O)c1ccc(Cl)cc1)c(C)c(CC(O)=O)c2c3 	3715.0	-1.26		
+lamotrigine	Nc1nnc(c(N)n1)c2cccc(Cl)c2Cl	3878.0	0.48		
+lidocaine	CCN(CC)CC(=O)Nc1c(C)cccc1C	3676.0	0.34		
+Lorazepam	OC3N=C(c1ccccc1Cl)c2cc(Cl)ccc2NC3=O 	3958.0	0.47		
+Lorazepam	OC3N=C(c1ccccc1Cl)c2cc(Cl)ccc2NC3=O 	3958.0	0.41		
+Lupitidine (SKB5)	CN(C)Cc3ccc(CSCCNc2nc(=O)c(Cc1ccc(C)nc1)c[nH]2)o3 	4375468.0	-1.06		
+Mannitol	OCC(O)C(O)C(O)C(O)CO 	453.0	-1.6		
+Mefloquine (+ve) (AI-8)	OC(C1CCCCN1)c2cc(nc3c(cccc23)C(F)(F)F)C(F)(F)F	4046.0	0.63		
+methamphetamine	CNC(C)Cc1ccccc1	1206.0	0.9		
+Methohexital	CCC#CC(C)C1(CC=C)C(=O)NC(=O)N(C)C1=O 	9034.0	-0.06		
+Mianserin	CN1CCN3C(C1)c2ccccc2Cc4ccccc34 	4184.0	0.99		
+Midazolam	Cc3ncc4CN=C(c1ccccc1F)c2cc(Cl)ccc2n34 	4192.0	0.36		
+Midazolam	Cc3ncc4CN=C(c1ccccc1F)c2cc(Cl)ccc2n34 	4192.0	0.5185		
+Midazolam	Cc3ncc4CN=C(c1ccccc1F)c2cc(Cl)ccc2n34 	4192.0	0.4		
+miloxacin	COn2cc(C(O)=O)c(=O)c3cc1OCOc1cc23 	37614.0	-0.9208		
+Mirtazapine	CN1CCN3C(C1)c2ccccc2Cc4cccnc34 	4205.0	0.53		
+misonidazolefluoro (Fluoromisonidazole)	OC(COCF)Cn1ccnc1N(=O)=O 	23274095.0	-0.01		
+Morphine	CN1CCC24C3Oc5c(O)ccc(CC1C2C=CC3O)c45 	4253.0	-0.6483		
+MSP	CN3CN(C2(CCN(CCCC(c1ccc(F)cc1)=O)CC2)C3=O)c4ccccc4	119146.0	0.46		
+nalidixic acid	CCn1cc(C(O)=O)c(=O)c2ccc(C)nc12 	4421.0	-0.657577319177793		
+Nevirapine	Cc3ccnc4N(C1CC1)c2ncccc2C(=O)Nc34 	4463.0	0.0		
+Nicotine	CN1CCCC1c2cccnc2 	942.0	0.23609999999999998		
+Northioridazine	c1cc2Sc3ccc(SC)cc3N(CCC4CCCNC4)c2cc1	114376.0	0.75		
+Olanzapine	CN1CCN(CC1)C3=Nc2ccccc2Nc4sc(C)cc34 	135398745.0	0.78		
+Org13011	O=C1N(CCC1)CCCCN2CCN(CC2)c3nccc(c3)C(F)(F)F	9907401.0	0.16		
+Org30526	c21C4C(c3ccccc3Oc1ccc(c2)Cl)CNC4	14577084.0	0.39		
+Org32104	c21C4(O)C(c3cccc(c3Oc1cccc2)C)CNCC4		0.52		
+Org34167	n1c(c2ccccc2o1)c3c(cccc3)C(CC=C)N	9861160.0	0.0		
+Org5222	CN1CC3C(C1)c2cc(Cl)ccc2Oc4ccccc34 	9903970.0	1.03		
+Oxazepam	OC3N=C(c1ccccc1)c2cc(Cl)ccc2NC3=O 	4616.0	0.61		
+Oxazepam	OC3N=C(c1ccccc1)c2cc(Cl)ccc2NC3=O 	4616.0	0.55		
+Paracetamol (Acetaminophen or +ol)	CC(=O)Nc1ccc(O)cc1 	1983.0	-0.34		
+Paraxanthine	C1(=O)N(C)C(=O)Nc2ncn(C)c12	4687.0	0.06		
+Pentazocine	CC2C3Cc1ccc(O)cc1C2(C)CCN3CC=C(C)C 	4736.0	0.45		
+Pentazocine	CC2C3Cc1ccc(O)cc1C2(C)CCN3CC=C(C)C 	4736.0	0.6375		
+Pentobarbital (5-Ethyl-5-(1-methylbutyl)barbital)	CCCC(C)C1(CC)C(=O)NC(=O)NC1=O 	4737.0	0.12		
+Pentobarbital (5-Ethyl-5-(1-methylbutyl)barbital)	CCCC(C)C1(CC)C(=O)NC(=O)NC1=O 	4737.0	0.16		
+pentylenetetrazole (metrazole)	C2CCc1nnnn1CC2	5917.0	-0.03		
+Phenazone (Antipyrine)	Cc2cc(=O)n(c1ccccc1)n2C	2206.0	-0.1		
+phencyclidine	C1CCN(CC1)C2(CCCCC2)c3ccccc3	6468.0	0.44		
+Phenylbutazone	CCCCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3 	4781.0	-0.52		
+Phenyl-N-tert-butylnitrone	c1ccccc1C=N(=O)C(C)(C)C		0.05		
+Phenytoin	O=C1NC(=O)C(N1)(c2ccccc2)c3ccccc3 	1775.0	-0.04		
+Phenytoin	O=C1NC(=O)C(N1)(c2ccccc2)c3ccccc3 	1775.0	-0.16		
+physostigmine	CNC(=O)Oc3ccc2N(C)C1N(C)CCC1(C)c2c3	4811.0	0.08		
+Pindolol	CC(C)NCC(O)COc1cccc2[nH]ccc12 	4828.0	-0.15		
+Pindolol	CC(C)NCC(O)COc1cccc2[nH]ccc12 	4828.0	-0.12		
+PK-11195	CCC(C)N(C)C(=O)c2cc1ccccc1c(n2)c3ccccc3Cl	1345.0	0.48		
+p-Phenylbenzoic acid	OC(=O)c1ccc(cc1)c2ccccc2 	66724.0	-1.25963731050575		
+procaine	CCN(CC)CCOC(=O)c1ccc(N)cc1	4914.0	0.05		
+Promazine	CN(C)CCCN2c1ccccc1Sc3ccccc23 	4926.0	1.23		
+Promazine	CN(C)CCCN2c1ccccc1Sc3ccccc23 	4926.0	0.67		
+Propofol	CC(C)c1cccc(C(C)C)c1O 	4943.0	0.48		
+Propofol	CC(C)c1cccc(C(C)C)c1O 	4943.0	0.9138		
+Propranolol (Propanolol)	CC(C)NCC(O)COc1cccc2ccccc12	4946.0	0.64		
+propyl-4-aminobenzoate	CCCOC(=O)c1ccc(N)cc1	7174.0	0.55		
+pyrene	c1cc2ccc3cccc4ccc(c1)c2c34 	31423.0	0.23		
+Pyrilamine (Mepyramine SKB7)	COc2ccc(CN(CCN(C)C)c1ccccn1)cc2 	4992.0	0.5		
+quinidine (quinine)	COc4ccc3nccc(C(O)C1CC2CCN1CC2C=C)c3c4	1065.0	0.1		
+R-Etodolac	CCc2cccc3c1CCOC(CC)(CC(O)=O)c1[nH]c23	3308.0	-1.50863830616572		
+Risperidone	Cc2nc1CCCCn1c(=O)c2CCN3CCC(CC3)c4noc5cc(F)ccc45 	5073.0	-0.02		
+rolipram	COc1ccc(cc1OC2CCCC2)C3CNC(=O)C3	5092.0	0.61		
+ropinirole (SKF101468)	CCCN(CCC)CCc1cccc2NC(=O)Cc12 	5095.0	0.25		
+S-2fluoroethylisothiourea	NC(=N)SCCF	10011896.0	-0.27470105694163205		
+salbutamol (albuterol)	CC(C)(C)NCC(O)c1ccc(O)c(CO)c1	2083.0	-1.3		
+Salicylic acid (2-Hydroxybenzoic acid)	OC(=O)c1ccccc1O 	338.0	-1.1		
+Salicylic acid (2-Hydroxybenzoic acid)	OC(=O)c1ccccc1O 	338.0	-1.22184874961635		
+saquinavir (invirase)	CC(C)(C)NC(=O)C2CC1CCCCC1CN2CC(O)C(Cc3ccccc3)NC(=O)C(CC(N)=O)NC(=O)c5ccc4ccccc4n5 	3579812.0	-1.03		
+S-Etodolac	CCc2cccc3c1CCOC(CC)(CC(O)=O)c1[nH]c23	3308.0	-1.33724216831842		
+SKB15	Brc1cccnc1CSCCNc2[nH]ccc2N(=O)=O	14022480.0	-0.67		
+SKB16	O=N(=O)c1cc[nH]c1NCCSCc2ccccn2	14022481.0	-0.66		
+SKB17	O=N(=O)c1c(Cc2ccccc2)c[nH]c1NCCSCc3ccccn3	14022483.0	-0.12		
+SKB19 (guanidinen4phenylthiazol2yl) 	NC(=Nc1nc(cs1)c2ccccc2)N	3763607.0	-0.18		
+SKB2 (guanidinen25methylthiazol2yl )	Cc1csc(N=C(N)N)n1	2776666.0	-0.04		
+SKB20 (guanidinen43aminophenylthiazol2yl)	NC(=Nc1nc(cs1)c2cccc(N)c2)N	14022509.0	-1.15		
+SKB22	CC(=O)Nc1cccc(c1)c2csc(N=C(N)N)n2	14022511.0	-1.57		
+SKB23 (guanidinenmethylncyanon32nguanidylthiazol4ylphenyl )	CNC(=NC#N)Nc1cccc(c1)c2csc(N=C(N)N)n2	14022519.0	-1.54		
+SKB24 (pyrrole3nitro225dimethylaminomethylfuran2ylmethylthioethylamino)	CN(C)Cc1ccc(CSCCNc2[nH]ccc2N(=O)=O)o1	13646638.0	-1.12		
+SKB25 (ranidtidineanalog)	CN(C)Cc1ccc(CSCCNc2[nH]cc(Cc3ccccc3)c2N(=O)=O)o1	14022484.0	-0.73		
+SKB26 (pyrrole3nitro235dimethylaminomethylfuran2ylphenylamino )	CN(C)Cc1ccc(o1)c2cccc(Nc3[nH]ccc3N(=O)=O)c2	14022491.0	-0.27		
+SKB29	CN(C)Cc1ccnc(c1)c2cccc(Nc3[nH]ccc3N(=O)=O)c2	14022486.0	-0.28		
+SKB30 (npropylacetamide33npiperidinylmethylphenoxy )	CC(=O)NCCCOc1cccc(CN2CCCCC2)c1	9971484.0	-0.46		
+SKB31 (benzamiden33piperidinylmethylphenoxy)	O=C(NCCCOc1cccc(CN2CCCCC2)c1)c3ccccc3	10498206.0	-0.24		
+SKB34 (propanol33npiperidinylmethylphenoxy)	OCCCOc1cccc(CN2CCCCC2)c1	10444765.0	-0.02		
+SKB36 (2pyridineaminen33npiperidinylmethylphenoxypropyl)	C(CNc1ccccn1)COc2cccc(CN3CCCCC3)c2	10019237.0	0.69		
+SKB37	C(CNc1nccs1)COc2cccc(CN3CCCCC3)c2	14022497.0	0.44		
+SKB42	C(CNc1nc2ccccc2o1)COc3cccc(CN4CCCCC4)c3	14022499.0	0.22		
+SKF 89124	CCCN(CCC)CCc1ccc(O)c2NC(=O)Cc12 	133741.0	-0.43		
+S-methylisothiourea	NC(=N)SC	5142.0	-0.6020599913279624		
+Spiperone	Fc1ccc(cc1)C(=O)CCCN2CCC3(CC2)N(CNC3=O)c4ccccc4 	5265.0	0.26		
+Stavudine	Cc2cn(C1OC(CO)C=C1)c(=O)[nH]c2=O 	5155.0	-0.4815		
+Sulforidazine	CN1CCCCC1CCN3c2ccccc2Sc4ccc(cc34)S(C)(=O)=O 	31765.0	0.18		
+terbinafine	CN(CC=CC#CC(C)(C)C)Cc1cccc2ccccc12 	5402.0	0.0946		
+tertbutylchlorambucil	CC(C)(C)OC(=O)CCCc1ccc(N(CCCl)CCCl)cc1	83909.0	1.0		
+Theobromine (3,7-Dimethylxanthine)	Cn1cnc2n(C)c(=O)[nH]c(=O)c12	5429.0	-0.3		
+Theophylline (1,3-Dimethylxanthine)	Cn2c(=O)n(C)c1nc[nH]c1c2=O 	2153.0	-0.345		
+Thiopental (Thiopentone)	CCCC(C)C1(CC)C(=O)NC(=S)NC1=O 	3000715.0	-0.154901959985743		
+Thiopental (Thiopentone)	CCCC(C)C1(CC)C(=O)NC(=S)NC1=O 	3000715.0	-0.14		
+thioperamide	S=C(NC1CCCCC1)N2CCC(CC2)c3c[nH]cn3	3035905.0	-0.16		
+Thioridazine	CSc4ccc3Sc1ccccc1N(CCC2CCCCN2C)c3c4 	5452.0	0.24		
+Thioridazine	CSc4ccc3Sc1ccccc1N(CCC2CCCCN2C)c3c4 	5452.0	0.46		
+Thioridazine	CSc4ccc3Sc1ccccc1N(CCC2CCCCN2C)c3c4 	5452.0	0.15		
+tibolone	CC3CC1=C(CCC(=O)C1)C4CCC2(C)C(CCC2(O)C#C)C34	5470.0	0.4		
+Tiotidine (SKB10)	CNC(NCCSCc1csc(N=C(N)N)n1)=NC#N 	50287.0	-0.82		
+Toliprolol	CC(C)NCC(O)COc1cccc(C)c1 	18047.0	0.47		
+Toliprolol	CC(C)NCC(O)COc1cccc(C)c1 	18047.0	0.09		
+Triazolam	Cc3nnc4CN=C(c1ccccc1Cl)c2cc(Cl)ccc2n34 	5556.0	0.5700000000000001		
+Trifluroperazine	CN1CCN(CC1)CCCn1c2ccccc2sc2cccc(C(F)(F)F)c12		1.44		
+triptanol (amitriptyline)	CN(C)CCC=C2c1ccccc1CCc3ccccc23	2160.0	0.89		
+Valproic acid	CCCC(CCC)C(O)=O 	3121.0	-1.15490195998574		
+Verapamil	COc2ccc(CCN(C)CCCC(C#N)(C(C)C)c1ccc(OC)c(OC)c1)cc2OC	2520.0	-0.7		
+verapamil	COc2ccc(CCN(C)CCCC(C#N)(C(C)C)c1ccc(OC)c(OC)c1)cc2OC	2520.0	-0.23736091579460392		
+water	O	962.0	-0.04		
+Y-G 15 (2pyridineethanaminenndimethyl) 	CN(C)CCc1ccccn1	80554.0	-0.06		
+Y-G 16 (thiazole22aminoethyl)	NCCc1nccs1	87653.0	-0.42		
+Zidovudine (AZT)	Cc2cn(C1CC(N=[N+]=[N-])C(CO)O1)c(=O)[nH]c2=O	5726.0	-0.72		
+Zolantidine (SKB41)	C1CCN(CC1)Cc4cccc(OCCCNc3nc2ccccc2s3)c4	91769.0	0.14		
+Nordazepam	Clc3ccc2NC(=O)CN=C(c1ccccc1)c2c3 	2997.0	0.5		
+BBCPD10	CN(C)c1cc(c2nc(N)[nH]n2)ccn1	12889418.0	-1.17		
+BBCPD12	n1cccc(Br)c1CSCCNc2c(N(=O)=O)cc[nH]2	14022480.0	-0.67		
+BBCPD13	n1ccccc1CSCCNc2c(N(=O)=O)cc[nH]2	14022481.0	-0.66		
+BBCPD14	n1ccccc1CSCCNc2c(N(=O)=O)c(Cc3ccccc3)c[nH]2	14022483.0	-0.12		
+BBCPD15	NC(N)=Nc1scc(c2ccccc2)n1	3763607.0	-0.18		
+BBCPD57	NC(N)=Nc1scc(c2cc(N)ccc2)n1	14022509.0	-1.15		
+BBCPD16	NC(N)=Nc1scc(c2cc(NC(=O)C)ccc2)n1	14022511.0	-1.57		
+BBCPD58	NC(N)=Nc1scc(c2cc(NC(=NC#N)NC)ccc2)n1	14022519.0	-1.54		
+BBCPD17	CN(C)Cc1ccc(o1)SCCNc2c(N(=O)=O)cc[nH]2		-1.12		
+BBCPD60	CN(C)Cc1ccc(o1)SCCNc2c(N(=O)=O)c(Cc3ccccc3)c[nH]2		-0.73		
+BBCPD18	CN(C)Cc1ccc(o1)c2cc(Nc3c(N(=O)=O)cc[nH]3)ccc2	14022491.0	-0.27		
+BBCPD19	CN(C)Cc1ccnc(c1)c2cc(Nc3c(N(=O)=O)cc[nH]3)ccc2	14022486.0	-0.28		
+BBCPD20	C1CCCCN1Cc2cccc(c2)OCCCNC(=O)C	9971484.0	-0.46		
+BBCPD21	C1CCCCN1Cc2cccc(c2)OCCCNC(=O)c3ccccc3	10498206.0	-0.24		
+BBCPD22	C1CCCCN1Cc2cccc(c2)OCCCO	10444765.0	-0.02		
+BBCPD23	C1CCCCN1Cc2cccc(c2)OCCCNc3ccccn3	10019237.0	0.69		
+BBCPD24	C1CCCCN1Cc2cccc(c2)OCCCNc3nccs3	14022497.0	0.44		
+BBCPD26	C1CCN(CC1)Cc4cccc(OCCCNc3nc2ccccc2o3)c4	14022499.0	0.22		
+ICI17148	Cc1nc(N=C(N)N)sc1	2776666.0	-0.04		
+SB222200	c1ccccc1C(CC)NC(=O)c2c(C)c(c3ccccc3)nc4ccccc24	3946663.0	0.3		
+CBZ-EPO	NC(=O)N2c1ccccc1C4CC4c3ccccc23 		-0.34		
+L-663,581	C1(=O)c2c(Cl)cccc2n3cnc(c4noc(C(C)C)n4)c3CN1C	129710.0	-0.3		
+M1L-663,581	C1(=O)c2c(Cl)cccc2n3cnc(c4noc(C(C)(C)O)n4)c3CN1C	10384745.0	-1.34		
+M2L-663,581	C1(=O)c2c(Cl)cccc2n3cnc(c4noc(C(CO)(C)O)n4)c3CN1C	10091748.0	-1.82		

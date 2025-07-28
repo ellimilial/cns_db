@@ -1,9 +1,0 @@
-compound_name	smiles	CID	logBB	BBB+/BBB-	comments
-S117	Nc3ccc(c2nc1ccc(O)cc1s2)cc3I	10451635.0	-0.605		
-S118	CC3CCN(CCC1CCN1S(=O)(=O)/C2=C/C(O)=C\CC2)CC3		-0.886		
-S119	O=S(O)(c2ccc1cc[nH]c1c2)N3CCCC3CCN5CCC(Oc4cccc(Cl)c4)CC5		0.924		
-S120	O=C2C/C=[N+](C1CC(F)C(CO)O1)\C(=O)N2		-0.687		
-S121	Cn4nc(CC(=O)NC1CC[N+]2(C)CCCC1C2)c3ccccc34		-0.0809		
-S122	CC2/C=[N+](C1CC(N=[N+]=N)C(CO)O1)\C(=O)NC2=O		-0.0457		
-S123	CC/C(=C(c1ccccc1)/c2ccc(OCCN(C)C)cc2)c3ccccc3	2733526.0	0.176		
-Indinavir	CC(C)(C)NC(=O)[C@@H]1CN(CCN1C[C@H](C[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H]3[C@@H](CC4=CC=CC=C34)O)O)CC5=CN=CC=C5	5362440.0	-1.1549		

@@ -3,7 +3,7 @@ data/ChEMBL/*.gz
 data/DrugBank/_drugbank_session.sqlite
 b3db_kc/caches/*
 __pycache__
-.DSStore
+.DSS,tore
 [core]
 	repositoryformatversion = 0
 	filemode = true
